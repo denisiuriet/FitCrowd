@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"><classes><class name="com.fit.loginPage.LoginPageTests"><methods><include name="missingCredentials"/><include name="invalidEmail"/><include name="invalidPassword"/><include name="invalidCredentials"/><include name="validCredentials"/><include name="checkForgotPassword"/></methods></class></classes></test></suite>

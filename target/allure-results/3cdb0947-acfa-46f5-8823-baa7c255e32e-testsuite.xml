@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1596714868334" stop="1596714884272" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : FitCrowd</name>
+    <title>Default Suite : FitCrowd</title>
+    <test-cases>
+        <test-case start="1596714874279" stop="1596714875537" status="passed">
+            <name>checkForgotPassword</name>
+            <steps>
+                <step start="1596714874310" stop="1596714874947" status="passed">
+                    <name>checkPage</name>
+                    <title>Check page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="78871baf-a11a-4dfa-92e7-7848dd2dc46d-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596714874949" stop="1596714875535" status="passed">
+                    <name>forgotPassWord</name>
+                    <title>Check forgot password</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="f2f2729a-ce18-4c7f-acbe-50820450c487-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="FitCrowd"/>
+                <label name="testClass" value="com.fit.loginPage.LoginPageTests"/>
+                <label name="testMethod" value="checkForgotPassword"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="536@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1596714875898" stop="1596714877774" status="passed">
+            <name>invalidCredentials</name>
+            <steps>
+                <step start="1596714875899" stop="1596714876358" status="passed">
+                    <name>checkPage</name>
+                    <title>Check page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="d2cda48b-329e-42f4-b177-c05012159c1b-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596714876359" stop="1596714876791" status="passed">
+                    <name>setEmail[abc@gmail.com]</name>
+                    <title>Set Email</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="4bd417a1-d45e-4a50-92c9-37d60307bbf2-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596714876792" stop="1596714877255" status="passed">
+                    <name>setPassword[abcd1234]</name>
+                    <title>Set Password</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="1d12ca68-e138-4536-bf94-f35a087f7d41-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596714877257" stop="1596714877678" status="passed">
+                    <name>failedLogin</name>
+                    <title>Check failed login</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="3369264c-81da-427d-acff-4ed10635bb89-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596714877747" stop="1596714877771" status="passed">
+                    <name>getLoginErrorMessage</name>
+                    <title>Get login error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="FitCrowd"/>
+                <label name="testClass" value="com.fit.loginPage.LoginPageTests"/>
+                <label name="testMethod" value="invalidCredentials"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="536@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1596714878121" stop="1596714879127" status="passed">
+            <name>invalidEmail</name>
+            <steps>
+                <step start="1596714878122" stop="1596714878579" status="passed">
+                    <name>checkPage</name>
+                    <title>Check page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="6fd88f9d-9d72-4f58-a3ed-409ea18b6433-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596714878579" stop="1596714879027" status="passed">
+                    <name>setEmail[abc]</name>
+                    <title>Set Email</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="dbe7e57f-4e8b-4e44-9008-0388bf3e84e6-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596714879071" stop="1596714879127" status="passed">
+                    <name>getCredentialsErrorMessage</name>
+                    <title>Get credentials error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="FitCrowd"/>
+                <label name="testClass" value="com.fit.loginPage.LoginPageTests"/>
+                <label name="testMethod" value="invalidEmail"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="536@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1596714879607" stop="1596714880475" status="passed">
+            <name>invalidPassword</name>
+            <steps>
+                <step start="1596714879608" stop="1596714879977" status="passed">
+                    <name>checkPage</name>
+                    <title>Check page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="dcdbc0c4-af0a-4228-b6a8-ae16f3c22587-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596714879978" stop="1596714880386" status="passed">
+                    <name>setPassword[123]</name>
+                    <title>Set Password</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="79de6fb0-d0f0-476b-a986-4eabe2934f34-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596714880432" stop="1596714880474" status="passed">
+                    <name>getCredentialsErrorMessage</name>
+                    <title>Get credentials error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="FitCrowd"/>
+                <label name="testClass" value="com.fit.loginPage.LoginPageTests"/>
+                <label name="testMethod" value="invalidPassword"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="536@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1596714880875" stop="1596714881897" status="passed">
+            <name>missingCredentials</name>
+            <steps>
+                <step start="1596714880876" stop="1596714881446" status="passed">
+                    <name>checkPage</name>
+                    <title>Check page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="6cdd57fe-43f8-403b-ae79-d65ca7139e5d-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596714881446" stop="1596714881825" status="passed">
+                    <name>failedLogin</name>
+                    <title>Check failed login</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="cf53df34-8413-4f18-be86-e6e1d0eb0aff-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596714881858" stop="1596714881897" status="passed">
+                    <name>getCredentialsErrorMessage</name>
+                    <title>Get credentials error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="FitCrowd"/>
+                <label name="testClass" value="com.fit.loginPage.LoginPageTests"/>
+                <label name="testMethod" value="missingCredentials"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="536@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1596714882315" stop="1596714884208" status="passed">
+            <name>validCredentials</name>
+            <steps>
+                <step start="1596714882316" stop="1596714882789" status="passed">
+                    <name>checkPage</name>
+                    <title>Check page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="2c53afb9-a77a-4661-afe4-cf2891cbc66a-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596714882789" stop="1596714883236" status="passed">
+                    <name>setEmail[iuriet.denis@gmail.com]</name>
+                    <title>Set Email</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="f0efc3e2-b136-450a-ae72-3bae038224a5-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596714883236" stop="1596714883659" status="passed">
+                    <name>setPassword[abcd1234]</name>
+                    <title>Set Password</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="da73abc7-5af1-40e4-90ed-a8a03ff18190-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596714883659" stop="1596714884208" status="passed">
+                    <name>successfulLogin</name>
+                    <title>Check successful login</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="3f38d5c1-4702-4353-bc0a-7bcc3f730a53-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="FitCrowd"/>
+                <label name="testClass" value="com.fit.loginPage.LoginPageTests"/>
+                <label name="testMethod" value="validCredentials"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="536@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

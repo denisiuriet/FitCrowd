@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1596713704005" stop="1596713712439" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : FitCrowd</name>
+    <title>Default Suite : FitCrowd</title>
+    <test-cases>
+        <test-case start="1596713710916" stop="1596713712439" status="passed">
+            <name>missingCredentials</name>
+            <steps>
+                <step start="1596713710965" stop="1596713711699" status="passed">
+                    <name>checkPage</name>
+                    <title>Check page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="c096fe42-6297-4f7d-a49c-c130e019e5ab-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596713711700" stop="1596713712249" status="passed">
+                    <name>failedLogin</name>
+                    <title>Check failed login</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="6c8b2322-1c6e-4edd-a066-f463c64e712e-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596713712370" stop="1596713712439" status="passed">
+                    <name>getCredentialsErrorMessage</name>
+                    <title>Get credentials error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="FitCrowd"/>
+                <label name="testClass" value="com.fit.loginPage.LoginPageTests"/>
+                <label name="testMethod" value="missingCredentials"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="3172@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
