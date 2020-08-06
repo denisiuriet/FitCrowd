@@ -33,8 +33,8 @@ public class Elements {
     //Classes Page Elements
 
     public final static By createButton = By.cssSelector("#root > div > div.container-open > div.dashboard > div > div.title-container > div > button");
-    public final static By createFrame = By.cssSelector("body > div:nth-child(9) > div > div");
-    public final static By classImg = By.cssSelector("body > div:nth-child(9) > div > div > div.modal-body > form > div.row.form-content > div.image-container.col-2 > img");
+    public final static By createImg = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.row.form-content > div.image-container.col-2 > img");
+    public final static By sendImg = By.className("dropzone");
 
 
 }

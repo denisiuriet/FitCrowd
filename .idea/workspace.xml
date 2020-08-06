@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f00fdd4-aba6-4cde-a452-57271ca16ffb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fit/classesPage/ClassesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fit/classesPage/ClassesPageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fit/forgotPasswordPage/ForgotPasswordTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fit/forgotPasswordPage/ForgotPasswordTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fit/loginPage/LoginPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fit/loginPage/LoginPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fit/classesPage/ClassesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fit/classesPage/ClassesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fit/classesPage/ClassesPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fit/classesPage/ClassesPageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/resource/Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resource/Elements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resource/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resource/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fit/forgotPasswordPage/ForgotPasswordTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fit/forgotPasswordPage/ForgotPasswordTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fit/loginPage/LoginPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fit/loginPage/LoginPageTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/resource/Elements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/resource/Elements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/resource/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/resource/Utility.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,33 +129,49 @@
       <option name="presentableId" value="Default" />
       <updated>1596708149372</updated>
     </task>
+    <task id="LOCAL-00001" summary="Second commit">
+      <created>1596720531482</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596720531482</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1596720514003">
+    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1596720529357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596720514003" />
+    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596720529357" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1596708653998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596708653998" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1596720514019">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1596726531161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596720514019" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1596720514019">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596726531161" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1596726531161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596720514019" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1596720514019">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596726531161" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1596726531161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596720514019" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1596720514019">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596726531161" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1596726531161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596720514019" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596726531161" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1596723268426">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1596723268426" />
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596720439507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

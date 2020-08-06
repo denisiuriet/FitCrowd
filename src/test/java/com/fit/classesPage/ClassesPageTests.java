@@ -7,7 +7,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import resource.Utility;
 
 public class ClassesPageTests {
     private RemoteWebDriver driver;
@@ -24,14 +23,15 @@ public class ClassesPageTests {
     @BeforeMethod
     public void setDriver(){
         driver.navigate().to("https://admin-dev.fitcrowd.net/classes");
-        driver.manage().deleteAllCookies();
-        driver.navigate().to("https://admin-dev.fitcrowd.net/classes");
+       // driver.manage().deleteAllCookies();
+        //driver.navigate().to("https://admin-dev.fitcrowd.net/classes");
     }
 
     @Test
-    public void addImage(){
+    public void addImage() throws InterruptedException {
         classesPage.checkPage();
         classesPage.addImage();
+        Thread.sleep(5000);
     }
 
     @AfterClass

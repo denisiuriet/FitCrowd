@@ -1,7 +1,9 @@
 package com.fit.classesPage;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import resource.Elements;
 import resource.Utility;
@@ -24,7 +26,11 @@ public class ClassesPage {
     @Step
     public void addImage(){
         driver.findElement(Elements.createButton).click();
-        WebElement frame = driver.findElement(Elements.createFrame);
-        frame.findElement(Elements.classImg).sendKeys("C:\\Users\\iurie\\Desktop\nurca.jpg");
+        driver.switchTo().activeElement();
+        Actions builder = new Actions(driver);
+        builder.moveToElement(driver.findElement(Elements.createImg)).perform();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.sendImg));
+        //WebElement frame = driver.findElement(Elements.createFrame);
+        driver.findElement(Elements.sendImg).sendKeys("C:/Users/iurie/Desktop/nurca.jpg");
     }
 }
