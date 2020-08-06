@@ -30,7 +30,9 @@ public class LoginPageTests {
 
     @BeforeMethod
     public void setDriver(){
-        Utility.setDriver(driver, "https://admin-dev.fitcrowd.net/login");
+        driver.navigate().to("https://admin-dev.fitcrowd.net/login");
+        driver.manage().deleteAllCookies();
+        driver.navigate().to("https://admin-dev.fitcrowd.net/login");
     }
 
     @Test
@@ -89,8 +91,8 @@ public class LoginPageTests {
         loginPage.forgotPassword();
     }
 
-    @AfterClass
-    public void tearDown(){
-        driver.quit();
-    }
+   // @AfterClass
+   // public void tearDown(){
+    //    driver.quit();
+    //}
 }

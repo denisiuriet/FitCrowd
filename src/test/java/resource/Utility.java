@@ -20,10 +20,4 @@ public class Utility {
             return false;
         }
     }
-
-    public static void setDriver(RemoteWebDriver driver, String url){
-        driver.navigate().to(url);
-        driver.manage().deleteAllCookies();
-        driver.navigate().to(url);
-    }
 }

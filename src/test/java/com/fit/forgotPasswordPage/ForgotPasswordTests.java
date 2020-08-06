@@ -27,7 +27,9 @@ public class ForgotPasswordTests {
 
     @BeforeMethod
     public void setDriver(){
-        Utility.setDriver(driver, "https://admin-dev.fitcrowd.net/forgotPassword");
+        driver.navigate().to("https://admin-dev.fitcrowd.net/forgotPassword");
+        driver.manage().deleteAllCookies();
+        driver.navigate().to("https://admin-dev.fitcrowd.net/forgotPassword");
     }
 
     @Test
