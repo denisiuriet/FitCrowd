@@ -20,35 +20,35 @@ public class LoginPageTests {
 
     private LoginPage loginPage;
 
-    @BeforeClass
-    public void driverSetup(){
+    @BeforeClass(groups = {"create"})
+    public void driverSetup() {
         driver = SingletonDriver.getInstance();
         wait = new WebDriverWait(driver, 30);
 
         loginPage = new LoginPage(driver, wait);
     }
 
-    @BeforeMethod
-    public void setDriver(){
+    @BeforeMethod(groups = {"create"})
+    public void setDriver() {
         driver.navigate().to("https://admin-dev.fitcrowd.net/login");
         driver.manage().deleteAllCookies();
         driver.navigate().to("https://admin-dev.fitcrowd.net/login");
     }
 
     @Test
-    public void missingCredentials(){
+    public void missingCredentials() {
         loginPage.checkPage();
         loginPage.failedLogin();
         wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.errorCredentials));
         List<String> listOfErrors = loginPage.getCredentialsErrorMessage();
 
-        for(String error :listOfErrors){
+        for (String error : listOfErrors) {
             Assert.assertEquals(error, Elements.required);
         }
     }
 
     @Test
-    public void invalidEmail(){
+    public void invalidEmail() {
         loginPage.checkPage();
         loginPage.setEmail("abc");
         wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.errorCredentials));
@@ -58,7 +58,7 @@ public class LoginPageTests {
     }
 
     @Test
-    public void invalidPassword(){
+    public void invalidPassword() {
         loginPage.checkPage();
         loginPage.setPassword("123");
         wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.errorCredentials));
@@ -68,7 +68,7 @@ public class LoginPageTests {
     }
 
     @Test
-    public void invalidCredentials(){
+    public void invalidCredentials() {
         loginPage.checkPage();
         loginPage.setEmail("abc@gmail.com");
         loginPage.setPassword("abcd1234");
@@ -78,21 +78,22 @@ public class LoginPageTests {
         Assert.assertEquals(loginPage.getLoginErrorMessage(), Elements.invalidCredentials);
     }
 
-    @Test
-    public void validCredentials(){
+    @Test(priority = -1, groups = {"create"})
+    public void validCredentials() throws InterruptedException {
         loginPage.checkPage();
         loginPage.setEmail("iuriet.denis@gmail.com");
         loginPage.setPassword("abcd1234");
         loginPage.successfulLogin();
     }
 
-    @Test void checkForgotPassword(){
+    @Test
+    void checkForgotPassword() {
         loginPage.checkPage();
         loginPage.forgotPassword();
     }
 
-   // @AfterClass
-   // public void tearDown(){
+    // @AfterClass
+    // public void tearDown(){
     //    driver.quit();
     //}
 }

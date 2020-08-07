@@ -22,7 +22,13 @@ public class LoginPage {
 
     @Step("Check page")
     public boolean checkPage(){
-        return Utility.checkPage(driver, "https://admin-dev.fitcrowd.net/login");
+        if(driver.getCurrentUrl().equals("https://admin-dev.fitcrowd.net/login")){
+            Utility.takeScreenshot(driver);
+            return true;
+        }else{
+            Utility.takeScreenshot(driver);
+            return false;
+        }
     }
 
     @Step("Set Email")

@@ -3,18 +3,21 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
           name="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java">
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+
         <classes>
             <class name="com.fit.loginPage.LoginPageTests">
-                <methods>
-                    <include name="validCredentials"/>
-                </methods>
+
             </class>
 
             <class name="com.fit.classesPage.ClassesPageTests">
-                <methods>
-                    <include name="addImage"/>
-                </methods>
+
             </class>
         </classes>
+
     </test>
 </suite>
