@@ -5,12 +5,10 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import resource.Elements;
-import resource.Utility;
 
 import java.util.List;
 
@@ -20,7 +18,7 @@ public class LoginPageTests {
 
     private LoginPage loginPage;
 
-    @BeforeClass(groups = {"create"})
+    @BeforeClass(groups = {"create", "checkClass"})
     public void driverSetup() {
         driver = SingletonDriver.getInstance();
         wait = new WebDriverWait(driver, 30);
@@ -28,7 +26,7 @@ public class LoginPageTests {
         loginPage = new LoginPage(driver, wait);
     }
 
-    @BeforeMethod(groups = {"create"})
+    @BeforeMethod(groups = {"create", "checkClass"})
     public void setDriver() {
         driver.navigate().to("https://admin-dev.fitcrowd.net/login");
         driver.manage().deleteAllCookies();
@@ -78,7 +76,7 @@ public class LoginPageTests {
         Assert.assertEquals(loginPage.getLoginErrorMessage(), Elements.invalidCredentials);
     }
 
-    @Test(priority = -1, groups = {"create"})
+    @Test(priority = -1, groups = {"create", "checkClass"})
     public void validCredentials() throws InterruptedException {
         loginPage.checkPage();
         loginPage.setEmail("iuriet.denis@gmail.com");
