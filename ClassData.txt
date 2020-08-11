@@ -5,6 +5,5 @@ DENIS
 0
 10
 60
-2020-08-20
-19:15
+20:45
 Class Description

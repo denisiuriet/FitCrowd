@@ -1,11 +1,11 @@
 package com.fit.classesPage;
 
 import com.fit.SingletonDriver;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.awt.*;
@@ -17,7 +17,7 @@ public class ClassesPageTests {
     private WebDriverWait wait;
     private ClassesPage classesPage;
 
-    @BeforeClass(groups = {"create"})
+    @BeforeClass(groups = {"create", "delete", "view", "edit"})
     public void driverSetup() throws IOException {
         driver = SingletonDriver.getInstance();
         wait = new WebDriverWait(driver, 30);
@@ -25,7 +25,7 @@ public class ClassesPageTests {
         classesPage.setFile();
     }
 
-    @BeforeClass(groups = {"create"})
+    @BeforeClass(groups = {"create", "delete", "view", "edit"})
     public void setDriver() {
         driver.navigate().to("https://admin-dev.fitcrowd.net/classes");
     }
@@ -77,12 +77,12 @@ public class ClassesPageTests {
     @Test(groups = {"create"}, priority = 8)
     public void setBeginningDate() throws IOException {
         classesPage.clickBeginningDate();
-        classesPage.setDayOfClass();
+        classesPage.setDate(0);
     }
 
     @Test(groups = {"create"}, priority = 9)
     public void setTime() throws IOException {
-        classesPage.setTime("15");
+        classesPage.setTime(Keys.NUMPAD4, Keys.NUMPAD5, Keys.NUMPAD2, Keys.NUMPAD0);
     }
 
     @Test(groups = {"create"}, priority = 10)
@@ -93,6 +93,82 @@ public class ClassesPageTests {
     @Test(groups = {"create"}, priority = 11)
     public void createClass() throws IOException {
         classesPage.createClass();
+        classesPage.closeFile();
+    }
+
+    @Test(groups = {"delete"})
+    public void deleteClass() {
+        classesPage.checkPage();
+        classesPage.deleteClass("Test01");
+        classesPage.confirmDeleteClass();
+    }
+
+    @Test(groups = {"view"})
+    public void viewClass() {
+        classesPage.checkPage();
+        classesPage.viewClass("Test01");
+        classesPage.closeView();
+    }
+
+    @Test(groups = {"edit"})
+    public void editClassName() throws IOException {
+        classesPage.checkPage();
+        classesPage.editClass("Test02");
+        classesPage.editClassName("Test03");
+    }
+
+    @Test(groups = {"edit"}, priority = 1)
+    public void changeLocation() throws IOException {
+        classesPage.checkPage();
+        classesPage.changeLocation();
+    }
+
+    @Test(groups = {"edit"}, priority = 2)
+    public void editOpenRegistration() throws IOException {
+        classesPage.checkPage();
+        classesPage.editOpenRegistration("10");
+    }
+
+    @Test(groups = {"edit"}, priority = 3)
+    public void editCloseRegistration() throws IOException {
+        classesPage.checkPage();
+        classesPage.editCloseRegistration("5");
+    }
+
+    @Test(groups = {"edit"}, priority = 4)
+    public void editClassParticipants() throws IOException {
+        classesPage.checkPage();
+        classesPage.editParticipants("15");
+    }
+
+    @Test(groups = {"edit"}, priority = 5)
+    public void editClassDuration() throws IOException {
+        classesPage.checkPage();
+        classesPage.editDuration("45");
+    }
+
+    @Test(groups = {"edit"}, priority = 6)
+    public void editBeginningDate() throws IOException {
+        classesPage.checkPage();
+        classesPage.editDate(2);
+    }
+
+    @Test(groups = {"edit"}, priority = 7)
+    public void editTime() throws IOException {
+        classesPage.checkPage();
+        classesPage.editTime(Keys.NUMPAD3, Keys.NUMPAD0, Keys.NUMPAD1, Keys.NUMPAD9);
+    }
+
+    @Test(groups = {"edit"}, priority = 8)
+    public void editDescription() throws IOException {
+        classesPage.checkPage();
+        classesPage.editDescription("New Description");
+    }
+
+    @Test(groups = {"edit"}, priority = 9)
+    public void editClass() throws IOException {
+        classesPage.checkPage();
+        classesPage.editClass();
         classesPage.closeFile();
     }
 

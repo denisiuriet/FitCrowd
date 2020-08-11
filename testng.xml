@@ -5,17 +5,21 @@
           name="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java">
         <groups>
             <run>
-                <include name="checkClass"/>
+                <include name="create"/>
             </run>
         </groups>
 
         <classes>
             <class name="com.fit.loginPage.LoginPageTests">
+                <methods>
+                    <include name="validCredentials"/>
+                </methods>
 
             </class>
 
-            <!--<class name="com.fit.classesPage.ClassesPageTests">-->
-            <class name="com.fit.schedulePage.SchedulePageTests">
+            <!-- <class name="com.fit.trainerProfilePage.TrainerProfileTests"> -->
+            <class name="com.fit.classesPage.ClassesPageTests">
+                <!--<class name="com.fit.schedulePage.SchedulePageTests">-->
 
             </class>
         </classes>

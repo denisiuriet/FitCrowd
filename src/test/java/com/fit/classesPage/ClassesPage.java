@@ -1,5 +1,7 @@
 package com.fit.classesPage;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -9,12 +11,16 @@ import resource.Elements;
 import resource.Utility;
 import ru.yandex.qatools.allure.annotations.Step;
 
+
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
 
 public class ClassesPage {
     private RemoteWebDriver driver;
@@ -132,36 +138,47 @@ public class ClassesPage {
         Utility.takeScreenshot(driver);
     }
 
-    @Step("Click on next month")
-    public void clickNextMonth() {
-        driver.findElement(Elements.nextMonth).click();
-    }
-
-    @Step("Get current date")
-    public String getCurrentDate() {
-        return driver.findElement(Elements.currentDate).getText();
-    }
-
     @Step("Click on beginning date")
     public void clickBeginningDate() {
         driver.findElement(Elements.currentDate).click();
     }
 
+    @Step("Set date")
+    public void setDate(int flag){
+        wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.tableOfDates));
+        List<WebElement> listOfWeeks = driver.findElement(Elements.tableOfDates).findElement(Elements.calendar).findElements(Elements.calendarLines);
 
-    @Step("Set day of class")
-    public void setDayOfClass() throws IOException {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.dayOfClass));
-        driver.findElement(Elements.dayOfClass).click();
-        writer.write(driver.findElement(Elements.currentDate).getAttribute("value") + "\n");
-        Utility.takeScreenshot(driver);
+        LocalDate localDate = LocalDate.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        localDate.format(formatter);
+
+        here:
+        for(WebElement element : listOfWeeks){
+            List<WebElement> listOfDays = element.findElements(Elements.daysOfWeek);
+            for(WebElement day : listOfDays){
+
+                if(day.getAttribute("class").equals("prev disabled") || day.getAttribute("class").equals("disabled"))
+                    continue;
+
+                int dayOfMonth = Integer.parseInt(day.getText());
+                int actualDay = localDate.getDayOfMonth();
+                actualDay = actualDay + flag;
+                if(dayOfMonth >  actualDay){
+                    day.click();
+                    break here;
+                }
+            }
+        }
     }
 
     @Step("Set class time")
-    public void setTime(String time) throws IOException {
-        driver.findElement(Elements.classTime).sendKeys(time);
+    public void setTime(Keys min1, Keys min2, Keys hour1, Keys hour2) throws IOException {
+        driver.findElement(Elements.classTime).sendKeys(min1);
+        driver.findElement(Elements.classTime).sendKeys(min2);
+        driver.findElement(Elements.classTime).sendKeys(Keys.ARROW_LEFT);
+        driver.findElement(Elements.classTime).sendKeys(hour1);
+        driver.findElement(Elements.classTime).sendKeys(hour2);
         writer.write(driver.findElement(Elements.classTime).getAttribute("title") + "\n");
-        //driver.findElement(Elements.classTime).sendKeys(Keys.ARROW_LEFT);
-        //driver.findElement(Elements.classTime).sendKeys(time);
 
         Utility.takeScreenshot(driver);
     }
@@ -175,7 +192,7 @@ public class ClassesPage {
 
     @Step("Create class")
     public void createClass() {
-        driver.findElement(Elements.createClassButton).click();
+        driver.findElement(Elements.submitButton).click();
     }
 
     @Step("Close file")
@@ -183,4 +200,121 @@ public class ClassesPage {
         writer.flush();
         writer.close();
     }
+
+    @Step("Delete class")
+    public void deleteClass(String className) {
+        List<WebElement> list = driver.findElement(Elements.classTable).findElements(Elements.tableElements);
+        for (WebElement element : list) {
+            List<WebElement> elementsOfRow = element.findElements(Elements.rowElements);
+            System.out.println(elementsOfRow.get(0).getText());
+            if (elementsOfRow.get(0).getText().equals(className)) {
+                elementsOfRow.get(5).findElements(Elements.actionButtons).get(2).click();
+            }
+        }
+    }
+
+    @Step("Confirm delete")
+    public void confirmDeleteClass() {
+        driver.switchTo().activeElement().findElement(Elements.confirmButton).click();
+    }
+
+    @Step("View Class")
+    public void viewClass(String className) {
+        List<WebElement> list = driver.findElement(Elements.classTable).findElements(Elements.tableElements);
+        for (WebElement element : list) {
+            List<WebElement> elementsOfRow = element.findElements(Elements.rowElements);
+            if (elementsOfRow.get(0).getText().equals(className)) {
+                elementsOfRow.get(5).findElements(Elements.actionButtons).get(0).click();
+            }
+        }
+    }
+
+    @Step("Close View")
+    public void closeView() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.closeView));
+        driver.findElement(Elements.closeView).click();
+    }
+
+    @Step("Open Edit Window")
+    public void editClass(String className) {
+        List<WebElement> list = driver.findElement(Elements.classTable).findElements(Elements.tableElements);
+        for (WebElement element : list) {
+            List<WebElement> elementsOfRow = element.findElements(Elements.rowElements);
+            if (elementsOfRow.get(0).getText().equals(className)) {
+                elementsOfRow.get(5).findElements(Elements.actionButtons).get(1).click();
+            }
+        }
+    }
+
+    @Step("Clear field")
+    public void clearField(By element) {
+        driver.findElement(element).clear();
+    }
+
+    @Step("Edit className")
+    public void editClassName(String className) throws IOException {
+        writer.write("VIRTUAL" + "\n");
+        this.clearField(Elements.className);
+        this.setClassName(className);
+    }
+
+    @Step("Change location")
+    public void changeLocation() throws IOException {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.editClassLocation));
+        driver.findElement(Elements.editClassLocation).click();
+        driver.findElement(Elements.locationOption2).click();
+        writer.write(driver.findElement(Elements.locationName).getText() + "\n");
+    }
+
+    @Step("Edit Open Registration")
+    public void editOpenRegistration(String openRegistration) throws IOException {
+        this.clearField(Elements.openRegistration);
+        this.setOpenRegistration(openRegistration);
+    }
+
+    @Step("Edit Close Registration")
+    public void editCloseRegistration(String closeRegistration) throws IOException {
+        this.clearField(Elements.closeRegistration);
+        this.setCloseRegistration(closeRegistration);
+    }
+
+    @Step("Edit Participants No.")
+    public void editParticipants(String participants) throws IOException {
+        this.clearField(Elements.classParticipants);
+        this.setParticipants(participants);
+    }
+
+    @Step("Edit duration")
+    public void editDuration(String duration) throws IOException {
+        this.clearField(Elements.classDuration);
+        this.setDuration(duration);
+    }
+
+    @Step("Change date")
+    public void editDate(int flag) throws IOException {
+        this.clickBeginningDate();
+        this.setDate(flag);
+        writer.write(driver.findElement(Elements.currentDate).getAttribute("value") + "\n");
+        Utility.takeScreenshot(driver);
+    }
+
+    @Step("Edit time")
+    public void editTime(Keys min1, Keys min2, Keys hour1, Keys hour2) throws IOException {
+        this.setTime(min1, min2, hour1, hour2);
+        writer.write(driver.findElement(Elements.classTime).getAttribute("title") + "\n");
+
+        Utility.takeScreenshot(driver);
+    }
+
+    @Step("Edit Description")
+    public void editDescription(String description) throws IOException {
+        this.clearField(Elements.classDescription);
+        this.setDescription(description);
+    }
+
+    @Step("Edit Class")
+    public void editClass(){
+        this.createClass();
+    }
+
 }
