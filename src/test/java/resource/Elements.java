@@ -57,6 +57,9 @@ public class Elements {
     public final static By classTime = By.cssSelector("input[role=spinbutton]");
     public final static By submitButton = By.cssSelector("button[type=submit]");
 
+    public final static By classesList = By.className("rt-tr-group");
+    public final static By classDetails = By.className("rt-td");
+
     //View, Edit, Delete class buttons
     public final static By classTable = By.className("rt-tbody");
     public final static By tableElements = By.className("rt-tr-group");

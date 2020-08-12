@@ -11,7 +11,7 @@ public class HomePageTests {
     private WebDriverWait wait;
     private HomePage homePage;
 
-    @BeforeClass(groups = {"checkHome"})
+    @BeforeClass(groups = {"create"})
     public void driverSetup(){
         driver = SingletonDriver.getInstance();
         wait = new WebDriverWait(driver, 30);
@@ -19,12 +19,12 @@ public class HomePageTests {
         homePage.readFile("ClassData.txt");
     }
 
-    @BeforeClass(groups = {"checkHome"})
+    @BeforeClass(groups = {"create"})
     public void setDriver(){
         driver.navigate().to("https://admin-dev.fitcrowd.net/home");
     }
 
-    @Test(groups = {"checkHome"})
+    @Test(groups = {"create"})
     public void checkClass(){
         homePage.checkPage();
         homePage.checkTodayClass();

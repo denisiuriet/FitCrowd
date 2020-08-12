@@ -5,7 +5,7 @@
           name="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java">
         <groups>
             <run>
-                <include name="checkHome"/>
+                <include name="create"/>
             </run>
         </groups>
 
@@ -18,11 +18,11 @@
             </class>
 
             <!--<class name="com.fit.trainerProfilePage.TrainerProfileTests"/>-->
-            <!--<class name="com.fit.classesPage.ClassesPageTests"/> -->
-            <!--<class name="com.fit.schedulePage.SchedulePageTests"/>-->
+            <class name="com.fit.classesPage.ClassesPageTests"/>
+            <class name="com.fit.schedulePage.SchedulePageTests"/>
             <class name="com.fit.homePage.HomePageTests"/>
 
-        </classes>
+         </classes>
 
-    </test>
-</suite>
+     </test>
+ </suite>

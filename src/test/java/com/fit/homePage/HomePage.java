@@ -13,6 +13,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class HomePage {
     private RemoteWebDriver driver;
@@ -39,7 +40,7 @@ public class HomePage {
 
     @Step("Check Page")
     public void checkPage(){
-        Utility.checkPage(driver, "https://admin-dev.fitcrowd.net/home");
+        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
     }
 
     @Step("Check Today Class")

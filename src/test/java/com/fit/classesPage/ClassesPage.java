@@ -12,6 +12,8 @@ import resource.Utility;
 import ru.yandex.qatools.allure.annotations.Step;
 
 
+import javax.rmi.CORBA.Util;
+import javax.xml.bind.Element;
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
@@ -21,6 +23,7 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class ClassesPage {
     private RemoteWebDriver driver;
@@ -51,7 +54,7 @@ public class ClassesPage {
     }
 
     @Step("Add image to class")
-    public void addImage(String imagePath) throws AWTException {
+    public void addImage(String imagePath) throws AWTException, InterruptedException {
         //Switch to create frame
         driver.switchTo().activeElement();
 
@@ -60,13 +63,14 @@ public class ClassesPage {
         Actions builder = new Actions(driver);
         builder.moveToElement(driver.findElement(Elements.addImage)).click().perform();
 
-
+        Robot robot = new Robot();
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         //Copy path to clipboard
         StringSelection ss = new StringSelection(imagePath);
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
 
         //Robot for commands CTRL + V, Enter
-        Robot robot = new Robot();
+
 
         robot.setAutoDelay(2000);
         robot.keyPress(KeyEvent.VK_CONTROL);
@@ -203,6 +207,19 @@ public class ClassesPage {
     public void closeFile() throws IOException {
         writer.flush();
         writer.close();
+    }
+
+    @Step("Check if class was created")
+    public boolean confirmClass(){
+        List<WebElement> listOfClasses = driver.findElements(Elements.classesList);
+        for(WebElement element : listOfClasses){
+            if(element.findElements(Elements.classDetails).get(0).getText().equals("Test15")){
+                Utility.takeScreenshot(driver);
+                return true;
+            }
+        }
+
+        return false;
     }
 
     @Step("Delete class")

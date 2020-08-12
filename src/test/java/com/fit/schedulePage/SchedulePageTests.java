@@ -13,7 +13,7 @@ public class SchedulePageTests {
     private WebDriverWait wait;
     private SchedulePage schedulePage;
 
-    @BeforeClass(groups = {"checkClass"})
+    @BeforeClass(groups = {"checkClass", "create"})
     public void driverSetup(){
         driver = SingletonDriver.getInstance();
         wait = new WebDriverWait(driver, 30);
@@ -21,12 +21,12 @@ public class SchedulePageTests {
         schedulePage.readFile("ClassData.txt");
     }
 
-    @BeforeClass(groups = {"checkClass"})
+    @BeforeClass(groups = {"checkClass", "create"})
     public void setDriver(){
         driver.navigate().to("https://admin-dev.fitcrowd.net/schedule");
     }
 
-    @Test(groups = {"checkClass"}, priority = -1)
+    @Test(groups = {"checkClass", "create"}, priority = -1)
     public void checkClassType(){
         schedulePage.checkPage();
         schedulePage.selectClass();
@@ -34,55 +34,55 @@ public class SchedulePageTests {
     }
 
 
-    @Test(groups = {"checkClass"})
+    @Test(groups = {"checkClass", "create"})
     public void checkClassName(){
         schedulePage.checkPage();
         schedulePage.checkClassName();
     }
 
-    @Test(groups = {"checkClass"})
+    @Test(groups = {"checkClass", "create"})
     public void checkClassLocation(){
         schedulePage.checkPage();
         schedulePage.checkClassLocation();
     }
 
-    @Test(groups = {"checkClass"})
+    @Test(groups = {"checkClass", "create"})
     public void checkClassDate(){
         schedulePage.checkPage();
         schedulePage.checkClassDate();
     }
 
-    @Test(groups = {"checkClass"})
+    @Test(groups = {"checkClass", "create"})
     public void checkStartTime(){
         schedulePage.checkPage();
         schedulePage.checkStartTime();
     }
 
-    @Test(groups = {"checkClass"})
+    @Test(groups = {"checkClass", "create"})
     public void checkFinishTime() throws ParseException {
         schedulePage.checkPage();
         schedulePage.checkFinishTime();
     }
 
-    @Test(groups = {"checkClass"})
+    @Test(groups = {"checkClass", "create"})
     public void checkClassParticipants(){
         schedulePage.checkPage();
         schedulePage.checkClassParticipants();
     }
 
-    @Test(groups = {"checkClass"})
+    @Test(groups = {"checkClass", "create"})
     public void checkClassOpenRegistration(){
         schedulePage.checkPage();
         schedulePage.checkOpenRegistration();
     }
 
-    @Test(groups = {"checkClass"})
+    @Test(groups = {"checkClass", "create"})
     public void checkClassCloseRegistration(){
         schedulePage.checkPage();
         schedulePage.checkCloseRegistration();
     }
 
-    @Test(groups = {"checkClass"})
+    @Test(groups = {"checkClass", "create"})
     public void checkClassDescription(){
         schedulePage.checkPage();
         schedulePage.checkDescription();

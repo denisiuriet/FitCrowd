@@ -31,7 +31,7 @@ public class ClassesPageTests {
     }
 
     @Test(groups = {"create"})
-    public void addImage() throws AWTException {
+    public void addImage() throws AWTException, InterruptedException {
         classesPage.checkPage();
         classesPage.clickCreate();
         classesPage.addImage("C:\\Users\\iurie\\Desktop\\Procyon_lotor_(raccoon).jpg");
@@ -83,7 +83,7 @@ public class ClassesPageTests {
 
     @Test(groups = {"create"}, priority = 9)
     public void setTime() throws IOException {
-        classesPage.setTime(Keys.NUMPAD4, Keys.NUMPAD5, Keys.NUMPAD2, Keys.NUMPAD1);
+        classesPage.setTime(Keys.NUMPAD1, Keys.NUMPAD5, Keys.NUMPAD1, Keys.NUMPAD5);
     }
 
     @Test(groups = {"create"}, priority = 10)
@@ -92,10 +92,17 @@ public class ClassesPageTests {
     }
 
     @Test(groups = {"create"}, priority = 11)
-    public void createClass() throws IOException {
+    public void createClass() throws IOException, InterruptedException {
         classesPage.createClass();
         classesPage.closeFile();
     }
+
+    @Test(groups = {"create"}, priority = 12)
+    public void confirmClass() {
+        classesPage.checkPage();
+        classesPage.confirmClass();
+    }
+
 
     @Test(groups = {"delete"})
     public void deleteClass() {

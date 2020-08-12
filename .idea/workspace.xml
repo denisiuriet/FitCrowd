@@ -2,26 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f00fdd4-aba6-4cde-a452-57271ca16ffb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fit/homePage/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fit/homePage/HomePageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ClassData.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/fit/classesPage/ClassesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fit/classesPage/ClassesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/fit/classesPage/ClassesPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fit/classesPage/ClassesPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fit/homePage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fit/homePage/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fit/homePage/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fit/homePage/HomePageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/fit/loginPage/LoginPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fit/loginPage/LoginPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fit/schedulePage/SchedulePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fit/schedulePage/SchedulePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/fit/schedulePage/SchedulePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fit/schedulePage/SchedulePageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fit/trainerProfilePage/TrainerProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fit/trainerProfilePage/TrainerProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fit/trainerProfilePage/TrainerProfileTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fit/trainerProfilePage/TrainerProfileTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/resource/Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resource/Elements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/fit/classesPage/ClassesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fit/classesPage/ClassesPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/fit/classesPage/ClassesPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fit/classesPage/ClassesPageTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fit/homePage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fit/homePage/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fit/homePage/HomePageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fit/homePage/HomePageTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/fit/loginPage/LoginPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fit/loginPage/LoginPageTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fit/schedulePage/SchedulePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fit/schedulePage/SchedulePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/fit/schedulePage/SchedulePageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fit/schedulePage/SchedulePageTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fit/trainerProfilePage/TrainerProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fit/trainerProfilePage/TrainerProfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fit/trainerProfilePage/TrainerProfileTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fit/trainerProfilePage/TrainerProfileTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/resource/Elements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/resource/Elements.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
@@ -174,46 +169,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596708653998" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1597226387407">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1597233587190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597226387407" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1597226387407">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597233587190" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1597233587190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597226387407" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1597226387407">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597233587190" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1597233587189">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597226387407" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1597226387407">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597233587189" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1597233587190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597226387407" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1597226387407">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597233587190" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1597233587190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597226387407" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1597226387407">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597233587190" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1597233587190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597226387407" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1597226387407">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597233587190" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1597233587190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597226387407" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1597226387407">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597233587190" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1597233587190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597226387407" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597233587190" />
     <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1597154222705">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1597154222705" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1597213393852">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1597226783402">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1597213393852" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1597226783402" />
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596720439507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -226,5 +221,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1597069660046" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/fit/classesPage/ClassesPageTests.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
