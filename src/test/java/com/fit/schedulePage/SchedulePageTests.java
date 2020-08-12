@@ -4,8 +4,6 @@ import com.fit.SingletonDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.text.ParseException;
@@ -34,6 +32,7 @@ public class SchedulePageTests {
         schedulePage.selectClass();
         schedulePage.checkClassType();
     }
+
 
     @Test(groups = {"checkClass"})
     public void checkClassName(){

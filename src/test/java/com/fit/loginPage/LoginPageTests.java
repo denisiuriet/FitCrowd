@@ -18,7 +18,7 @@ public class LoginPageTests {
 
     private LoginPage loginPage;
 
-    @BeforeClass(groups = {"create", "checkClass", "delete", "view", "edit"})
+    @BeforeClass(groups = {"create", "delete", "view", "edit", "checkClass", "checkHome"})
     public void driverSetup() {
         driver = SingletonDriver.getInstance();
         wait = new WebDriverWait(driver, 30);
@@ -26,7 +26,7 @@ public class LoginPageTests {
         loginPage = new LoginPage(driver, wait);
     }
 
-    @BeforeMethod(groups = {"create", "checkClass", "delete", "view", "edit"})
+    @BeforeMethod(groups = {"create", "delete", "view", "edit", "checkClass", "checkHome"})
     public void setDriver() {
         driver.navigate().to("https://admin-dev.fitcrowd.net/login");
         driver.manage().deleteAllCookies();
@@ -76,7 +76,7 @@ public class LoginPageTests {
         Assert.assertEquals(loginPage.getLoginErrorMessage(), Elements.invalidCredentials);
     }
 
-    @Test(priority = -1, groups = {"create", "checkClass", "delete", "view", "edit"})
+    @Test(priority = -1, groups = {"create", "delete", "view", "edit", "checkClass", "checkHome"})
     public void validCredentials() throws InterruptedException {
         loginPage.checkPage();
         loginPage.setEmail("iuriet.denis@gmail.com");

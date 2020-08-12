@@ -1,11 +1,16 @@
 package com.fit.trainerProfilePage;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import resource.Elements;
 import resource.Utility;
 import ru.yandex.qatools.allure.annotations.Step;
+
+import java.awt.*;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
 
 public class TrainerProfile {
     private RemoteWebDriver driver;
@@ -19,6 +24,34 @@ public class TrainerProfile {
     @Step("Check Page")
     public void checkPage(){
         Utility.checkPage(driver, "https://admin-dev.fitcrowd.net/trainerProfile");
+    }
+
+    @Step("Add Trainer Image")
+    public void addTrainerImage() throws AWTException {
+    //Click to open File Upload box
+        Actions builder = new Actions(driver);
+        builder.moveToElement(driver.findElement(Elements.trainerImage)).click().perform();
+
+
+        //Copy path to clipboard
+        StringSelection ss = new StringSelection("C:\\Users\\iurie\\Desktop\\Procyon_lotor_(raccoon).jpg");
+        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
+
+        //Robot for commands CTRL + V, Enter
+        Robot robot = new Robot();
+
+        robot.setAutoDelay(1000);
+        robot.keyPress(KeyEvent.VK_CONTROL);
+        robot.keyPress(KeyEvent.VK_V);
+        robot.setAutoDelay(1000);
+        robot.keyRelease(KeyEvent.VK_V);
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        robot.keyRelease(KeyEvent.VK_ENTER);
+
+        robot.setAutoDelay(1000);
+
+        Utility.takeScreenshot(driver);
     }
 
     @Step("Update First Name")

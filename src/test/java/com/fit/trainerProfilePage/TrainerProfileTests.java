@@ -6,6 +6,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.awt.*;
+
 public class TrainerProfileTests {
     private RemoteWebDriver driver;
     private WebDriverWait wait;
@@ -21,6 +23,11 @@ public class TrainerProfileTests {
     @BeforeClass
     public void setDriver() {
         driver.navigate().to("https://admin-dev.fitcrowd.net/trainerProfile");
+    }
+
+    @Test
+    public void addImage() throws AWTException {
+        trainerProfile.addTrainerImage();
     }
 
     @Test

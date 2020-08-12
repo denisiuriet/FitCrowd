@@ -1,6 +1,5 @@
 package com.fit.schedulePage;
 
-import org.apache.commons.lang.time.DateUtils;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -8,19 +7,14 @@ import resource.Elements;
 import resource.Utility;
 import ru.yandex.qatools.allure.annotations.Step;
 
-import javax.rmi.CORBA.Util;
-import javax.xml.bind.Element;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.text.DateFormat;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class SchedulePage {

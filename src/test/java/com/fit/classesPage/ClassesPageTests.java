@@ -31,9 +31,10 @@ public class ClassesPageTests {
     }
 
     @Test(groups = {"create"})
-    public void addImage() throws AWTException, IOException {
+    public void addImage() throws AWTException {
         classesPage.checkPage();
-        classesPage.addImage();
+        classesPage.clickCreate();
+        classesPage.addImage("C:\\Users\\iurie\\Desktop\\Procyon_lotor_(raccoon).jpg");
     }
 
     @Test(groups = {"create"}, priority = 1)
@@ -45,7 +46,7 @@ public class ClassesPageTests {
 
     @Test(groups = {"create"}, priority = 2)
     public void setClassName() throws IOException {
-        classesPage.setClassName("Test01");
+        classesPage.setClassName("Test15");
     }
 
     @Test(groups = {"create"}, priority = 3)
@@ -82,7 +83,7 @@ public class ClassesPageTests {
 
     @Test(groups = {"create"}, priority = 9)
     public void setTime() throws IOException {
-        classesPage.setTime(Keys.NUMPAD4, Keys.NUMPAD5, Keys.NUMPAD2, Keys.NUMPAD0);
+        classesPage.setTime(Keys.NUMPAD4, Keys.NUMPAD5, Keys.NUMPAD2, Keys.NUMPAD1);
     }
 
     @Test(groups = {"create"}, priority = 10)
@@ -110,11 +111,17 @@ public class ClassesPageTests {
         classesPage.closeView();
     }
 
-    @Test(groups = {"edit"})
+    @Test(groups = {"edit"}, priority = -1)
     public void editClassName() throws IOException {
         classesPage.checkPage();
-        classesPage.editClass("Test02");
+        classesPage.editClass("Test03");
         classesPage.editClassName("Test03");
+    }
+
+    @Test(groups = {"edit"})
+    public void editClassImage() throws AWTException {
+        classesPage.checkPage();
+        classesPage.editClassImage("C:\\Users\\iurie\\Desktop\\castor.jpg");
     }
 
     @Test(groups = {"edit"}, priority = 1)

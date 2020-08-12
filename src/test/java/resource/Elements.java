@@ -32,7 +32,7 @@ public class Elements {
     public final static By createButton = By.cssSelector("#root > div > div.container-open > div.dashboard > div > div.title-container > div > button");
 
     //Create Class Elements
-    public final static By createImg = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.row.form-content > div.image-container.col-2 > img");
+    public final static By addImage = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.row.form-content > div.image-container.col-2 > img");
     public final static By classType = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.row.form-content > div.inputs-side.col-2 > div > div > div:nth-child(1) > div > div > div.css-1hwfws3 > div.css-1wa3eu0-placeholder");
     public final static By virtualOption = By.className("css-1n7v3ny-option");
     //#react-select-5-option-0
@@ -66,10 +66,12 @@ public class Elements {
     public final static By closeView = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-header > div.modal-buttons > button > i");
 
     //Edit Window
+    public final static By editClassImage = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.row.form-content > div.image-container.col-2");
     public final static By editClassLocation = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.row.form-content > div.inputs-side.col-2 > div > div > div:nth-child(4) > div > div > div.css-1wy0on6");
 
     //Schedule Page Elements
-    public final static By selectScheduledClass = By.cssSelector("div[title=Test01]");
+    public final static By selectScheduledClass = By.cssSelector("div[title=Test15]");
+
     public final static By scheduleClassType = By.className("css-107lb6w-singleValue");
     public final static By scheduleClassName = By.cssSelector("input[name=name]");
     public final static By scheduleClassLocation = By.className("css-107lb6w-singleValue");
@@ -83,6 +85,7 @@ public class Elements {
 
 
     //Trainer Profile Page Elements
+    public final static By trainerImage = By.className("image-container");
     public final static By trainerFirstName = By.cssSelector("input[name=firstName]");
     public final static By trainerLastName = By.cssSelector("input[name=lastName]");
     public final static By trainerPhoneNo = By.cssSelector("input[name=phoneNumber]");
@@ -101,4 +104,12 @@ public class Elements {
     public final static By confirmNewPassword = By.cssSelector("input[name=confirmNewPassword]");
     public final static By changePassword = By.cssSelector("#root > div > div.container-open > div.dashboard > div > div.trainer-data-container > div.other-data > div > div.password > div > button:nth-child(1)");
     public final static By changePasswordConfirm = By.cssSelector("body > div.ReactModalPortal > div > div > div.modal-body > form > div.actions > button");
+
+    //Home Page Elements
+    public final static By todayClasses = By.className("classCard");
+    public final static By todayClassName = By.className("classCard-content-name");
+    public final static By todayClassType = By.className("classCard-type");
+    public final static By attendButton = By.cssSelector("button[type=button]");
+
 }
+

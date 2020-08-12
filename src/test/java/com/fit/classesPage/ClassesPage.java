@@ -25,7 +25,6 @@ import java.util.List;
 public class ClassesPage {
     private RemoteWebDriver driver;
     private WebDriverWait wait;
-    private WebElement element;
     private File file;
     private FileWriter writer;
 
@@ -46,21 +45,24 @@ public class ClassesPage {
         return Utility.checkPage(driver, "https://admin-dev.fitcrowd.net/classes");
     }
 
-    @Step("Add image to class")
-    public void addImage() throws AWTException {
+    @Step("Click create button")
+    public void clickCreate(){
         driver.findElement(Elements.createButton).click();
+    }
 
+    @Step("Add image to class")
+    public void addImage(String imagePath) throws AWTException {
         //Switch to create frame
         driver.switchTo().activeElement();
 
 
         //Click to open File Upload box
         Actions builder = new Actions(driver);
-        builder.moveToElement(driver.findElement(Elements.createImg)).click().perform();
+        builder.moveToElement(driver.findElement(Elements.addImage)).click().perform();
 
 
         //Copy path to clipboard
-        StringSelection ss = new StringSelection("C:\\Users\\iurie\\Desktop\\Procyon_lotor_(raccoon).jpg");
+        StringSelection ss = new StringSelection(imagePath);
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
 
         //Robot for commands CTRL + V, Enter
@@ -144,7 +146,7 @@ public class ClassesPage {
     }
 
     @Step("Set date")
-    public void setDate(int flag){
+    public void setDate(int flag) throws IOException {
         wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.tableOfDates));
         List<WebElement> listOfWeeks = driver.findElement(Elements.tableOfDates).findElement(Elements.calendar).findElements(Elements.calendarLines);
 
@@ -163,12 +165,14 @@ public class ClassesPage {
                 int dayOfMonth = Integer.parseInt(day.getText());
                 int actualDay = localDate.getDayOfMonth();
                 actualDay = actualDay + flag;
-                if(dayOfMonth >  actualDay){
+                if(dayOfMonth >=  actualDay){
                     day.click();
                     break here;
                 }
             }
         }
+        writer.write(driver.findElement(Elements.currentDate).getAttribute("value") + "\n");
+
     }
 
     @Step("Set class time")
@@ -251,7 +255,39 @@ public class ClassesPage {
         driver.findElement(element).clear();
     }
 
-    @Step("Edit className")
+    @Step("Edit class image")
+    public void editClassImage(String imagePath) throws AWTException {
+        //Switch to create frame
+        driver.switchTo().activeElement();
+
+        //Click to open File Upload box
+        Actions builder = new Actions(driver);
+        builder.moveToElement(driver.findElement(Elements.editClassImage)).click().perform();
+
+
+
+        //Copy path to clipboard
+        StringSelection ss = new StringSelection(imagePath);
+        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
+
+        //Robot for commands CTRL + V, Enter
+        Robot robot = new Robot();
+
+        robot.setAutoDelay(1000);
+        robot.keyPress(KeyEvent.VK_CONTROL);
+        robot.setAutoDelay(1000);
+        robot.keyPress(KeyEvent.VK_V);
+        robot.keyRelease(KeyEvent.VK_V);
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        robot.keyRelease(KeyEvent.VK_ENTER);
+
+        robot.setAutoDelay(1000);
+
+        Utility.takeScreenshot(driver);
+    }
+
+    @Step("Edit class Name")
     public void editClassName(String className) throws IOException {
         writer.write("VIRTUAL" + "\n");
         this.clearField(Elements.className);
