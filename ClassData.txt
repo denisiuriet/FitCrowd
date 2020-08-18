@@ -1,0 +1,10 @@
+NORMAL
+DENIS
+Test19
+24
+0
+10
+45
+2020-08-18
+23:00
+Class Description

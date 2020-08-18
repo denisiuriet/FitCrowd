@@ -11,11 +11,11 @@ public class Utility {
         return driver.getScreenshotAs(OutputType.BYTES);
     }
 
-    public static boolean checkPage(RemoteWebDriver driver, String url){
-        if(driver.getCurrentUrl().equals(url)){
+    public static boolean checkPage(RemoteWebDriver driver, String url) {
+        if (driver.getCurrentUrl().equals(url)) {
             Utility.takeScreenshot(driver);
             return true;
-        }else{
+        } else {
             Utility.takeScreenshot(driver);
             return false;
         }

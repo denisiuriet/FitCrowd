@@ -10,19 +10,20 @@
         </groups>
 
         <classes>
-            <class name="com.fit.loginPage.LoginPageTests">
+            <class name="LoginPageTests">
                 <methods>
                     <include name="validCredentials"/>
                 </methods>
 
             </class>
 
-            <!--<class name="com.fit.trainerProfilePage.TrainerProfileTests"/>-->
-            <class name="com.fit.classesPage.ClassesPageTests"/>
-            <class name="com.fit.schedulePage.SchedulePageTests"/>
-            <class name="com.fit.homePage.HomePageTests"/>
+            <!--<class name="TrainerProfileTests"/>-->
+            <class name="ClassesPageTests"/>
+            <class name="SchedulePageTests"/>
+            <!--<class name="HomePageTests"/>-->
+            <!--<class name ="ForgotPasswordTests"/>-->
 
-         </classes>
+        </classes>
 
-     </test>
- </suite>
+    </test>
+</suite>
