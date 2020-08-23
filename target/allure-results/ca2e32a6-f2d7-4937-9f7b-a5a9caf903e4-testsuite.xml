@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1598190622704" stop="1598190666574" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>All Test Suite : F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java</name>
+    <title>All Test Suite : F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java</title>
+    <test-cases>
+        <test-case start="1598190632438" stop="1598190666484" status="passed">
+            <name>validCredentials</name>
+            <steps>
+                <step start="1598190642314" stop="1598190645646" status="passed">
+                    <name>checkPage</name>
+                    <title>Check page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="f6b96b6e-6b91-4189-8015-4407573a3774-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598190649107" stop="1598190650374" status="passed">
+                    <name>setEmail[iuriet.denis@gmail.com]</name>
+                    <title>Set Email</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="b69c7fa0-e15f-433c-8351-099267002f33-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598190651605" stop="1598190652686" status="passed">
+                    <name>setPassword[abcd1234]</name>
+                    <title>Set Password</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="3ce3c019-6bb4-4424-a3e0-b0f8c7599b0d-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598190657672" stop="1598190666477" status="passed">
+                    <name>successfulLogin</name>
+                    <title>Check successful login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.loginPage.LoginPageTests"/>
+                <label name="testMethod" value="validCredentials"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="17832@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598190622704" stop="1598190666568" status="broken">
+            <name>All Test Suite : F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java</name>
+            <title>All Test Suite : F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java</title>
+            <failure>
+                <message>Test suite was interrupted, some test cases may be lost</message>
+            </failure>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

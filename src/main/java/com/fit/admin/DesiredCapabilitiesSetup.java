@@ -15,7 +15,7 @@ public class DesiredCapabilitiesSetup {
     public DesiredCapabilities setCapabilities() {
         chromeOptions.addArguments("--start-maximized");
         chromeOptions.addArguments("--window-size=1920,1080");
-        chromeOptions.addArguments("headless");
+        //chromeOptions.addArguments("headless");
         this.capabilities.setCapability("browserName", "chrome");
         this.capabilities.setCapability("platform", "ANY");
         this.capabilities.setCapability("javascriptEnable", "true");

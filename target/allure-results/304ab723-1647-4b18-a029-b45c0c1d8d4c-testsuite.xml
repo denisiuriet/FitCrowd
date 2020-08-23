@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1598207318421" stop="1598207334173" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>All Test Suite : F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java</name>
+    <title>All Test Suite : F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java</title>
+    <test-cases>
+        <test-case start="1598207325472" stop="1598207327906" status="passed">
+            <name>validGymCode</name>
+            <steps>
+                <step start="1598207325515" stop="1598207326099" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="f2cc3afa-3c7b-41e2-a092-93deb4750d17-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598207326099" stop="1598207326259" status="passed">
+                    <name>setGymCode[18GYM]</name>
+                    <title>Set Gym Code</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1598207326260" stop="1598207327903" status="passed">
+                    <name>successfulLogin</name>
+                    <title>Successful login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.verifyGym.VerifyGymTests"/>
+                <label name="testMethod" value="validGymCode"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="5372@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598207328265" stop="1598207328969" status="passed">
+            <name>invalidEmail</name>
+            <steps>
+                <step start="1598207328270" stop="1598207328773" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="f8bce449-48f1-49bf-b388-da811590a972-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598207328773" stop="1598207328877" status="passed">
+                    <name>setEmail[TestEmail]</name>
+                    <title>Set Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1598207328878" stop="1598207328969" status="passed">
+                    <name>getEmailError</name>
+                    <title>Get Email Error</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.forgotPassword.ForgotPasswordTests"/>
+                <label name="testMethod" value="invalidEmail"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="5372@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598207329065" stop="1598207329993" status="passed">
+            <name>missingEmail</name>
+            <steps>
+                <step start="1598207329071" stop="1598207329476" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="7286fe6b-b415-44f8-b4b3-2eaab50d815e-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598207329476" stop="1598207329899" status="passed">
+                    <name>resetPassword</name>
+                    <title>Reset Password</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="cff4b639-3cd3-4fa1-9ae7-0ab2e5a9fcc7-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598207329899" stop="1598207329993" status="passed">
+                    <name>getEmailError</name>
+                    <title>Get Email Error</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.forgotPassword.ForgotPasswordTests"/>
+                <label name="testMethod" value="missingEmail"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="5372@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598207330090" stop="1598207330743" status="passed">
+            <name>returnToLogin</name>
+            <steps>
+                <step start="1598207330094" stop="1598207330499" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="e1e9d9bb-dcae-44a5-bf4e-1f21bb169e95-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598207330499" stop="1598207330743" status="passed">
+                    <name>returnToLogin</name>
+                    <title>Check Return To Login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.forgotPassword.ForgotPasswordTests"/>
+                <label name="testMethod" value="returnToLogin"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="5372@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598207330828" stop="1598207332937" status="passed">
+            <name>validEmail</name>
+            <steps>
+                <step start="1598207330830" stop="1598207331225" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="7a3b1cb2-052f-4fae-92a0-ae3f6976dc56-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598207331225" stop="1598207331357" status="passed">
+                    <name>setEmail[denis.yonutz98@gmail.com]</name>
+                    <title>Set Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1598207331358" stop="1598207331788" status="passed">
+                    <name>resetPassword</name>
+                    <title>Reset Password</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="e15bd200-58b2-4f05-aa65-e9ab5f8827ca-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598207331788" stop="1598207332937" status="passed">
+                    <name>getAlertMessage</name>
+                    <title>Get Alert Message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.forgotPassword.ForgotPasswordTests"/>
+                <label name="testMethod" value="validEmail"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="5372@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598207333033" stop="1598207334122" status="passed">
+            <name>wrongEmail</name>
+            <steps>
+                <step start="1598207333035" stop="1598207333459" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="fb90b653-effa-4b08-baa6-9f3966b1fffe-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598207333459" stop="1598207333577" status="passed">
+                    <name>setEmail[TestEmail@gmail.com]</name>
+                    <title>Set Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1598207333578" stop="1598207334069" status="passed">
+                    <name>resetPassword</name>
+                    <title>Reset Password</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="53df0252-7442-4539-9022-8f9fe2e72737-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598207334070" stop="1598207334122" status="passed">
+                    <name>getAlertMessage</name>
+                    <title>Get Alert Message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.forgotPassword.ForgotPasswordTests"/>
+                <label name="testMethod" value="wrongEmail"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="5372@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

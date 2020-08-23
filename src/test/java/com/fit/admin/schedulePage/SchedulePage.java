@@ -2,6 +2,7 @@ package com.fit.admin.schedulePage;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import resource.Elements;
@@ -19,14 +20,16 @@ import java.util.List;
 
 public class SchedulePage {
     private RemoteWebDriver driver;
+    private WebDriverWait wait;
     private List<String> data;
 
-    public SchedulePage(RemoteWebDriver driver) {
+    public SchedulePage(RemoteWebDriver driver, WebDriverWait wait) {
         this.driver = driver;
+        this.wait = wait;
     }
 
 
-    public List<String> readFile(String fileName) {
+    public void readFile(String fileName) {
         this.data = new ArrayList<>();
 
         try {
@@ -36,7 +39,6 @@ public class SchedulePage {
             ex.printStackTrace();
         }
 
-        return this.data;
     }
 
     @Step("Check Page")
@@ -67,35 +69,24 @@ public class SchedulePage {
     }
 
     @Step("Check Class Type")
-    public boolean checkClassType() {
-        if (driver.findElement(Elements.scheduleClassType).getText().equals(this.data.get(0))) {
-            Utility.takeScreenshot(driver);
-            return true;
-        } else {
-            Utility.takeScreenshot(driver);
-            return false;
-        }
+    public void checkClassType() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.scheduleClassType));
+        Assert.assertEquals(driver.findElement(Elements.scheduleClassType).getText(), this.data.get(0));
     }
 
     @Step("Check Class Name")
     public void checkClassName() {
         Assert.assertEquals(driver.findElement(Elements.scheduleClassName).getAttribute("value"), this.data.get(2));
-        System.out.println(driver.findElement(Elements.scheduleClassName).getAttribute("value"));
-        System.out.println("Data: " + this.data.get(1));
     }
 
     @Step("Check Class Location")
     public void checkClassLocation() {
         Assert.assertEquals(driver.findElements(Elements.scheduleClassLocation).get(2).getText(), this.data.get(1));
-        System.out.println(driver.findElements(Elements.scheduleClassLocation).get(2).getText());
-        System.out.println(this.data.get(2));
     }
 
     @Step("Check Class Date")
     public void checkClassDate() {
         Assert.assertEquals(driver.findElement(Elements.scheduleClassDate).getAttribute("value"), this.data.get(7));
-        System.out.println(driver.findElement(Elements.scheduleClassDate).getAttribute("value"));
-        System.out.println(this.data.get(7));
     }
 
     @Step("Check Start Time")

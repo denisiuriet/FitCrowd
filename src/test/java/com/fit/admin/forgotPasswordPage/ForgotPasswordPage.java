@@ -1,7 +1,7 @@
 package com.fit.admin.forgotPasswordPage;
 
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import resource.Elements;
 import resource.Utility;
 import ru.yandex.qatools.allure.annotations.Step;
@@ -24,15 +24,9 @@ public class ForgotPasswordPage {
     }
 
     @Step("Return to login")
-    public boolean returnToLogin() {
+    public void returnToLogin() {
         driver.findElement(Elements.returnToLogin).click();
-        if (driver.getCurrentUrl().equals("https://admin-dev.fitcrowd.net/login")) {
-            Utility.takeScreenshot(driver);
-            return true;
-        } else {
-            Utility.takeScreenshot(driver);
-            return false;
-        }
+        Assert.assertEquals(driver.getCurrentUrl(), "https://admin-dev.fitcrowd.net/login");
     }
 
     @Step("Get error message")

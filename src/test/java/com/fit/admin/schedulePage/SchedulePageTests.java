@@ -8,14 +8,13 @@ import org.testng.annotations.Test;
 
 public class SchedulePageTests {
     private RemoteWebDriver driver;
-    private WebDriverWait wait;
     private SchedulePage schedulePage;
 
     @BeforeClass(groups = {"checkClass", "create"})
     public void driverSetup() {
         driver = SingletonDriver.getInstance();
-        wait = new WebDriverWait(driver, 30);
-        schedulePage = new SchedulePage(driver);
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        schedulePage = new SchedulePage(driver, wait);
         schedulePage.readFile("ClassData.txt");
     }
 

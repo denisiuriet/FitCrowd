@@ -6,7 +6,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import resource.Elements;
 
@@ -18,14 +17,14 @@ public class LoginPageTests {
 
     private LoginPage loginPage;
 
-    @BeforeClass(groups = {"create", "delete", "view", "edit", "checkClass", "checkHome"})
+    @BeforeClass(groups = {"create"})
     public void driverSetup() {
         driver = SingletonDriver.getInstance();
         wait = new WebDriverWait(driver, 30);
-        loginPage = new LoginPage(driver);
+        loginPage = new LoginPage(driver, wait);
     }
 
-    @BeforeMethod(groups = {"create", "delete", "view", "edit", "checkClass", "checkHome"})
+    @BeforeClass(groups = {"create"})
     public void setDriver() {
         driver.navigate().to("https://admin-dev.fitcrowd.net/login");
         driver.manage().deleteAllCookies();
@@ -75,7 +74,7 @@ public class LoginPageTests {
         Assert.assertEquals(loginPage.getLoginErrorMessage(), Elements.invalidCredentials);
     }
 
-    @Test(priority = -1, groups = {"create", "delete", "view", "edit", "checkClass", "checkHome"})
+    @Test(groups = {"create"})
     public void validCredentials() {
         loginPage.checkPage();
         loginPage.setEmail("iuriet.denis@gmail.com");

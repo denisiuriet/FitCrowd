@@ -1,7 +1,9 @@
 package com.fit.admin.loginPage;
 
+import junit.framework.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import resource.Elements;
 import resource.Utility;
@@ -12,9 +14,11 @@ import java.util.List;
 
 public class LoginPage {
     private RemoteWebDriver driver;
+    private WebDriverWait wait;
 
-    public LoginPage(RemoteWebDriver driver) {
+    public LoginPage(RemoteWebDriver driver, WebDriverWait wait) {
         this.driver = driver;
+        this.wait = wait;
     }
 
     @Step("Check page")
@@ -52,15 +56,11 @@ public class LoginPage {
     }
 
     @Step("Check successful login")
-    public boolean successfulLogin() {
+    public void successfulLogin() {
         driver.findElement(Elements.loginButton).click();
-        if (driver.getCurrentUrl().equals("https://admin-dev.fitcrowd.net/schedule")) {
-            Utility.takeScreenshot(driver);
-            return true;
-        } else {
-            Utility.takeScreenshot(driver);
-            return false;
-        }
+        wait.until(ExpectedConditions.urlToBe("https://admin-dev.fitcrowd.net/schedule"));
+        Assert.assertEquals(driver.getCurrentUrl(), "https://admin-dev.fitcrowd.net/schedule");
+        Utility.takeScreenshot(driver);
     }
 
     @Step("Check failed login")
@@ -70,14 +70,10 @@ public class LoginPage {
     }
 
     @Step("Check forgot password")
-    public boolean forgotPassword() {
+    public void forgotPassword() {
         driver.findElement(Elements.forgotPassword).click();
-        if (driver.getCurrentUrl().equals("https://admin-dev.fitcrowd.net/forgotPassword")) {
-            Utility.takeScreenshot(driver);
-            return true;
-        } else {
-            Utility.takeScreenshot(driver);
-            return false;
-        }
+        wait.until(ExpectedConditions.urlToBe("https://admin-dev.fitcrowd.net/forgotPassword"));
+        Assert.assertEquals(driver.getCurrentUrl(), "https://admin-dev.fitcrowd.net/forgotPassword");
+        Utility.takeScreenshot(driver);
     }
 }

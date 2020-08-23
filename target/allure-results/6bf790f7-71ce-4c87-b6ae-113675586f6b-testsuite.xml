@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1598205072494" stop="1598205104877" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>All Test Suite : F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java</name>
+    <title>All Test Suite : F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java</title>
+    <test-cases>
+        <test-case start="1598205080500" stop="1598205083867" status="passed">
+            <name>validCredentials</name>
+            <steps>
+                <step start="1598205080533" stop="1598205081117" status="passed">
+                    <name>checkPage</name>
+                    <title>Check page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="8c3f68c6-ca3a-4162-abb2-bb84600d819f-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598205081117" stop="1598205081691" status="passed">
+                    <name>setEmail[iuriet.denis@gmail.com]</name>
+                    <title>Set Email</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="4597b425-aa62-4fe7-a93b-39be41e916fc-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598205081691" stop="1598205082153" status="passed">
+                    <name>setPassword[abcd1234]</name>
+                    <title>Set Password</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="2401df97-f8e8-4dfe-8005-87f5e95cf650-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598205082153" stop="1598205083867" status="passed">
+                    <name>successfulLogin</name>
+                    <title>Check successful login</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="0eaa5106-ef81-476d-8ae8-d4628d8f36dc-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.loginPage.LoginPageTests"/>
+                <label name="testMethod" value="validCredentials"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205084133" stop="1598205085143" status="passed">
+            <name>setClassType</name>
+            <steps>
+                <step start="1598205083914" stop="1598205083914" status="passed">
+                    <name>setFile</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1598205084135" stop="1598205084626" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="9240462e-251d-4595-9645-92756cb09571-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598205084627" stop="1598205084830" status="passed">
+                    <name>clickCreate</name>
+                    <title>Click create button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1598205084831" stop="1598205085143" status="passed">
+                    <name>selectClassType</name>
+                    <title>Select Class Type</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="setClassType"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205085143" stop="1598205086246" status="passed">
+            <name>addImage</name>
+            <steps>
+                <step start="1598205085143" stop="1598205085592" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="2cf3691f-4ef8-4305-b92d-9bdb8eb9fc2e-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598205085592" stop="1598205086246" status="passed">
+                    <name>addImage</name>
+                    <title>Add image</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="8243873e-22fd-44d4-8df5-418f44fb96a0-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="addImage"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205086262" stop="1598205087111" status="passed">
+            <name>setClassName</name>
+            <steps>
+                <step start="1598205086262" stop="1598205087111" status="passed">
+                    <name>setClassName[Test1]</name>
+                    <title>Set Class Name</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="797324d9-cb98-4364-97fc-1e7df29641bd-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="setClassName"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205087111" stop="1598205087472" status="passed">
+            <name>setClassLocation</name>
+            <steps>
+                <step start="1598205087111" stop="1598205087471" status="passed">
+                    <name>setClassLocation</name>
+                    <title>Set Class Location</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="setClassLocation"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205087474" stop="1598205088105" status="passed">
+            <name>setOpenRegistration</name>
+            <steps>
+                <step start="1598205087474" stop="1598205088105" status="passed">
+                    <name>setOpenRegistration[24]</name>
+                    <title>Set Open Registration</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="77e28708-de2f-4cbb-a441-076ebe1ac90c-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="setOpenRegistration"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205088107" stop="1598205088612" status="passed">
+            <name>setCloseRegistration</name>
+            <steps>
+                <step start="1598205088108" stop="1598205088612" status="passed">
+                    <name>setCloseRegistration[0]</name>
+                    <title>Set Close Registration</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="9627e421-5256-4853-96c2-613eb8d8718c-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="setCloseRegistration"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205088612" stop="1598205089112" status="passed">
+            <name>setParticipants</name>
+            <steps>
+                <step start="1598205088612" stop="1598205089112" status="passed">
+                    <name>setParticipants[10]</name>
+                    <title>Set Participants</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="f66ca590-7980-4a20-96f3-ead32b51e61a-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="setParticipants"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205089112" stop="1598205089613" status="passed">
+            <name>setDuration</name>
+            <steps>
+                <step start="1598205089112" stop="1598205089613" status="passed">
+                    <name>setDuration[45]</name>
+                    <title>Set duration</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="0bc4fe45-07c0-4948-b4c6-8e80c46fb0ea-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="setDuration"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205089613" stop="1598205091160" status="passed">
+            <name>setBeginningDate</name>
+            <steps>
+                <step start="1598205089613" stop="1598205089705" status="passed">
+                    <name>clickBeginningDate</name>
+                    <title>Click on beginning date</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1598205089706" stop="1598205091160" status="passed">
+                    <name>setDate[3]</name>
+                    <title>Set date</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="setBeginningDate"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205091161" stop="1598205091892" status="passed">
+            <name>setTime</name>
+            <steps>
+                <step start="1598205091164" stop="1598205091892" status="passed">
+                    <name>setTime[, , , ]</name>
+                    <title>Set class time</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="9a850c0a-d7b2-4801-9625-d573edbc6e3f-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="setTime"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205091892" stop="1598205092611" status="passed">
+            <name>setDescription</name>
+            <steps>
+                <step start="1598205091892" stop="1598205092611" status="passed">
+                    <name>setDescription[Class Description]</name>
+                    <title>Set class description</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="9dfb9024-f803-4a96-a01f-248707a6d795-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="setDescription"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205092611" stop="1598205092735" status="passed">
+            <name>createClass</name>
+            <steps>
+                <step start="1598205092611" stop="1598205092734" status="passed">
+                    <name>createClass</name>
+                    <title>Create class</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1598205092735" stop="1598205092735" status="passed">
+                    <name>closeFile</name>
+                    <title>Close file</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="createClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205092737" stop="1598205093763" status="passed">
+            <name>viewClass</name>
+            <steps>
+                <step start="1598205092738" stop="1598205093256" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="a5aca254-9db1-4848-9a26-ca294db33871-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598205093257" stop="1598205093641" status="passed">
+                    <name>viewClass[Test1]</name>
+                    <title>View Class</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1598205093642" stop="1598205093762" status="passed">
+                    <name>closeView</name>
+                    <title>Close View</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="viewClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205093764" stop="1598205095268" status="broken">
+            <name>editClassName</name>
+            <failure>
+                <message>IOException: Stream closed</message>
+                <stack-trace>java.io.IOException: Stream closed
+	at sun.nio.cs.StreamEncoder.ensureOpen(StreamEncoder.java:45)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:118)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:135)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:220)
+	at java.io.Writer.write(Writer.java:157)
+	at com.fit.admin.classesPage.ClassesPage.editClassName(ClassesPage.java:257)
+	at com.fit.admin.classesPage.ClassesPageTests.editClassName(ClassesPageTests.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1598205093765" stop="1598205094177" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="33182a27-7991-485e-8e2f-761f824242fe-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1598205094177" stop="1598205095243" status="passed">
+                    <name>editClass[Test1]</name>
+                    <title>Open Edit Window</title>
+                </step>
+                <step start="1598205095246" stop="1598205095249" status="broken">
+                    <name>editClassName[Test2]</name>
+                    <title>Edit class Name</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="editClassName"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205095270" stop="1598205096433" status="passed">
+            <name>editClassImage</name>
+            <steps>
+                <step start="1598205095273" stop="1598205095809" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="0d177169-f28e-47c5-b314-258a9cc40bb8-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1598205095809" stop="1598205096433" status="passed">
+                    <name>editClassImage</name>
+                    <title>Edit class image</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="f1bf845c-2f82-4a8f-bfd9-d94a81507bfe-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="editClassImage"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205096434" stop="1598205097341" status="broken">
+            <name>changeLocation</name>
+            <failure>
+                <message>IOException: Stream closed</message>
+                <stack-trace>java.io.IOException: Stream closed
+	at sun.nio.cs.StreamEncoder.ensureOpen(StreamEncoder.java:45)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:118)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:135)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:220)
+	at java.io.Writer.write(Writer.java:157)
+	at com.fit.admin.classesPage.ClassesPage.changeLocation(ClassesPage.java:267)
+	at com.fit.admin.classesPage.ClassesPageTests.changeLocation(ClassesPageTests.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1598205096435" stop="1598205097153" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="07373689-cf02-4bfc-8ad5-977d73c85a21-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1598205097153" stop="1598205097341" status="broken">
+                    <name>changeLocation</name>
+                    <title>Change location</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="changeLocation"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205097343" stop="1598205097976" status="broken">
+            <name>editOpenRegistration</name>
+            <failure>
+                <message>IOException: Stream closed</message>
+                <stack-trace>java.io.IOException: Stream closed
+	at sun.nio.cs.StreamEncoder.ensureOpen(StreamEncoder.java:45)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:118)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:135)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:220)
+	at java.io.Writer.write(Writer.java:157)
+	at com.fit.admin.classesPage.ClassesPage.setOpenRegistration(ClassesPage.java:90)
+	at com.fit.admin.classesPage.ClassesPage.editOpenRegistration(ClassesPage.java:273)
+	at com.fit.admin.classesPage.ClassesPageTests.editOpenRegistration(ClassesPageTests.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1598205097343" stop="1598205097766" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="88c8b5d1-2f1a-4d1e-885f-d33b3d91749a-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1598205097766" stop="1598205097975" status="broken">
+                    <name>editOpenRegistration[10]</name>
+                    <title>Edit Open Registration</title>
+                    <steps>
+                        <step start="1598205097766" stop="1598205097837" status="passed">
+                            <name>clearField[By.cssSelector: body &gt; div:nth-child(7) &gt; div &gt; div &gt; div.modal-body &gt; form &gt; div.row.form-content &gt; div.inpu...]</name>
+                            <title>Clear field</title>
+                        </step>
+                        <step start="1598205097838" stop="1598205097975" status="broken">
+                            <name>setOpenRegistration[10]</name>
+                            <title>Set Open Registration</title>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="editOpenRegistration"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205097977" stop="1598205098667" status="broken">
+            <name>editCloseRegistration</name>
+            <failure>
+                <message>IOException: Stream closed</message>
+                <stack-trace>java.io.IOException: Stream closed
+	at sun.nio.cs.StreamEncoder.ensureOpen(StreamEncoder.java:45)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:118)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:135)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:220)
+	at java.io.Writer.write(Writer.java:157)
+	at com.fit.admin.classesPage.ClassesPage.setCloseRegistration(ClassesPage.java:98)
+	at com.fit.admin.classesPage.ClassesPage.editCloseRegistration(ClassesPage.java:279)
+	at com.fit.admin.classesPage.ClassesPageTests.editCloseRegistration(ClassesPageTests.java:139)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1598205097978" stop="1598205098427" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="d5ee0b79-8f99-4630-8b25-f600f748c8df-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1598205098427" stop="1598205098665" status="broken">
+                    <name>editCloseRegistration[5]</name>
+                    <title>Edit Close Registration</title>
+                    <steps>
+                        <step start="1598205098427" stop="1598205098538" status="passed">
+                            <name>clearField[By.cssSelector: input[name=closeForAttendees]]</name>
+                            <title>Clear field</title>
+                        </step>
+                        <step start="1598205098539" stop="1598205098665" status="broken">
+                            <name>setCloseRegistration[5]</name>
+                            <title>Set Close Registration</title>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="editCloseRegistration"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205098667" stop="1598205099288" status="broken">
+            <name>editClassParticipants</name>
+            <failure>
+                <message>IOException: Stream closed</message>
+                <stack-trace>java.io.IOException: Stream closed
+	at sun.nio.cs.StreamEncoder.ensureOpen(StreamEncoder.java:45)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:118)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:135)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:220)
+	at java.io.Writer.write(Writer.java:157)
+	at com.fit.admin.classesPage.ClassesPage.setParticipants(ClassesPage.java:105)
+	at com.fit.admin.classesPage.ClassesPage.editParticipants(ClassesPage.java:285)
+	at com.fit.admin.classesPage.ClassesPageTests.editClassParticipants(ClassesPageTests.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1598205098667" stop="1598205099094" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="2242f13b-6922-451e-8305-1d687ad7a990-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1598205099094" stop="1598205099287" status="broken">
+                    <name>editParticipants[15]</name>
+                    <title>Edit Participants No.</title>
+                    <steps>
+                        <step start="1598205099094" stop="1598205099157" status="passed">
+                            <name>clearField[By.cssSelector: input[name=participants]]</name>
+                            <title>Clear field</title>
+                        </step>
+                        <step start="1598205099157" stop="1598205099287" status="broken">
+                            <name>setParticipants[15]</name>
+                            <title>Set Participants</title>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="editClassParticipants"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205099289" stop="1598205099920" status="broken">
+            <name>editClassDuration</name>
+            <failure>
+                <message>IOException: Stream closed</message>
+                <stack-trace>java.io.IOException: Stream closed
+	at sun.nio.cs.StreamEncoder.ensureOpen(StreamEncoder.java:45)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:118)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:135)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:220)
+	at java.io.Writer.write(Writer.java:157)
+	at com.fit.admin.classesPage.ClassesPage.setDuration(ClassesPage.java:112)
+	at com.fit.admin.classesPage.ClassesPage.editDuration(ClassesPage.java:291)
+	at com.fit.admin.classesPage.ClassesPageTests.editClassDuration(ClassesPageTests.java:151)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1598205099290" stop="1598205099699" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="ca714951-5dc3-4743-b4ad-094ad5cb311a-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1598205099699" stop="1598205099919" status="broken">
+                    <name>editDuration[45]</name>
+                    <title>Edit duration</title>
+                    <steps>
+                        <step start="1598205099699" stop="1598205099777" status="passed">
+                            <name>clearField[By.cssSelector: input[name=duration]]</name>
+                            <title>Clear field</title>
+                        </step>
+                        <step start="1598205099778" stop="1598205099919" status="broken">
+                            <name>setDuration[45]</name>
+                            <title>Set duration</title>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="editClassDuration"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205099920" stop="1598205101855" status="broken">
+            <name>editBeginningDate</name>
+            <failure>
+                <message>IOException: Stream closed</message>
+                <stack-trace>java.io.IOException: Stream closed
+	at sun.nio.cs.StreamEncoder.ensureOpen(StreamEncoder.java:45)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:118)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:135)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:220)
+	at java.io.Writer.write(Writer.java:157)
+	at com.fit.admin.classesPage.ClassesPage.setDate(ClassesPage.java:147)
+	at com.fit.admin.classesPage.ClassesPage.editDate(ClassesPage.java:297)
+	at com.fit.admin.classesPage.ClassesPageTests.editBeginningDate(ClassesPageTests.java:157)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1598205099921" stop="1598205100360" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="184b02e5-6c71-48e9-b7a4-dc3193866263-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1598205100360" stop="1598205101854" status="broken">
+                    <name>editDate[4]</name>
+                    <title>Change date</title>
+                    <steps>
+                        <step start="1598205100360" stop="1598205100450" status="passed">
+                            <name>clickBeginningDate</name>
+                            <title>Click on beginning date</title>
+                        </step>
+                        <step start="1598205100451" stop="1598205101854" status="broken">
+                            <name>setDate[4]</name>
+                            <title>Set date</title>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="editBeginningDate"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205101855" stop="1598205102667" status="broken">
+            <name>editTime</name>
+            <failure>
+                <message>IOException: Stream closed</message>
+                <stack-trace>java.io.IOException: Stream closed
+	at sun.nio.cs.StreamEncoder.ensureOpen(StreamEncoder.java:45)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:118)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:135)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:220)
+	at java.io.Writer.write(Writer.java:157)
+	at com.fit.admin.classesPage.ClassesPage.setTime(ClassesPage.java:158)
+	at com.fit.admin.classesPage.ClassesPage.editTime(ClassesPage.java:304)
+	at com.fit.admin.classesPage.ClassesPageTests.editTime(ClassesPageTests.java:163)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1598205101856" stop="1598205102284" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="0d4badc3-1976-419f-8b1f-67c3aedf08e4-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1598205102284" stop="1598205102666" status="broken">
+                    <name>editTime[, , , ]</name>
+                    <title>Edit time</title>
+                    <steps>
+                        <step start="1598205102284" stop="1598205102666" status="broken">
+                            <name>setTime[, , , ]</name>
+                            <title>Set class time</title>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="editTime"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205102668" stop="1598205103417" status="broken">
+            <name>editDescription</name>
+            <failure>
+                <message>IOException: Stream closed</message>
+                <stack-trace>java.io.IOException: Stream closed
+	at sun.nio.cs.StreamEncoder.ensureOpen(StreamEncoder.java:45)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:118)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:135)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:220)
+	at java.io.Writer.write(Writer.java:157)
+	at com.fit.admin.classesPage.ClassesPage.setDescription(ClassesPage.java:166)
+	at com.fit.admin.classesPage.ClassesPage.editDescription(ClassesPage.java:313)
+	at com.fit.admin.classesPage.ClassesPageTests.editDescription(ClassesPageTests.java:169)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1598205102669" stop="1598205103077" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="22664c8c-e5e3-4e59-ae6e-aad72fa716b2-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1598205103077" stop="1598205103416" status="broken">
+                    <name>editDescription[New Description]</name>
+                    <title>Edit Description</title>
+                    <steps>
+                        <step start="1598205103077" stop="1598205103140" status="passed">
+                            <name>clearField[By.cssSelector: textarea[name=description]]</name>
+                            <title>Clear field</title>
+                        </step>
+                        <step start="1598205103141" stop="1598205103416" status="broken">
+                            <name>setDescription[New Description]</name>
+                            <title>Set class description</title>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="editDescription"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205103417" stop="1598205103962" status="broken">
+            <name>editClass</name>
+            <failure>
+                <message>IOException: Stream closed</message>
+                <stack-trace>java.io.IOException: Stream closed
+	at sun.nio.cs.StreamEncoder.ensureOpen(StreamEncoder.java:45)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:140)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at com.fit.admin.classesPage.ClassesPage.closeFile(ClassesPage.java:177)
+	at com.fit.admin.classesPage.ClassesPageTests.editClass(ClassesPageTests.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1598205103418" stop="1598205103845" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="01bdbb4d-efd0-4580-957c-188efc5142a8-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1598205103845" stop="1598205103960" status="passed">
+                    <name>editClass</name>
+                    <title>Edit Class</title>
+                    <steps>
+                        <step start="1598205103845" stop="1598205103960" status="passed">
+                            <name>createClass</name>
+                            <title>Create class</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1598205103961" stop="1598205103961" status="broken">
+                    <name>closeFile</name>
+                    <title>Close file</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="editClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1598205103966" stop="1598205104818" status="broken">
+            <name>deleteClass</name>
+            <failure>
+                <message>NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"button[type=submit]"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OH5VSFP', ip: '192.168.0.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\iurie\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 90197fe606d73cc6c23e1f74c00...}
+Session ID: 90197fe606d73cc6c23e1f74c00b92a4
+*** Element info: {Using=css selector, value=button[type=submit]}</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"button[type=submit]"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OH5VSFP', ip: '192.168.0.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\iurie\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 90197fe606d73cc6c23e1f74c00...}
+Session ID: 90197fe606d73cc6c23e1f74c00b92a4
+*** Element info: {Using=css selector, value=button[type=submit]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:185)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementByCssSelector(RemoteWebElement.java:253)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:181)
+	at com.fit.admin.classesPage.ClassesPage.confirmDeleteClass(ClassesPage.java:208)
+	at com.fit.admin.classesPage.ClassesPageTests.deleteClass(ClassesPageTests.java:183)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1598205103967" stop="1598205104370" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="c15f3c15-88a4-4845-afed-1afcf77744dc-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1598205104370" stop="1598205104771" status="passed">
+                    <name>deleteClass[Test2]</name>
+                    <title>Delete class</title>
+                </step>
+                <step start="1598205104771" stop="1598205104802" status="broken">
+                    <name>confirmDeleteClass</name>
+                    <title>Confirm delete</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="deleteClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="21112@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

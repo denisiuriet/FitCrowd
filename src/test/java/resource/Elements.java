@@ -88,10 +88,11 @@ public class Elements {
     public final static By trainerImage = By.className("image-container");
     public final static By trainerFirstName = By.cssSelector("input[name=firstName]");
     public final static By trainerLastName = By.cssSelector("input[name=lastName]");
+    public final static By trainerEmail = By.cssSelector("input[name=email]");
     public final static By trainerPhoneNo = By.cssSelector("input[name=phoneNumber]");
     public final static By trainerCountry = By.cssSelector("input[name=country]");
-    public final static By trainerCounty = By.cssSelector("input[name=county");
-    public final static By trainerCity = By.cssSelector("input[name=city");
+    public final static By trainerCounty = By.cssSelector("input[name=county]");
+    public final static By trainerCity = By.cssSelector("input[name=city]");
     public final static By trainerStreetName = By.cssSelector("input[name=streetName]");
     public final static By trainerStreetNo = By.cssSelector("input[name=streetNumber]");
     public final static By trainerDescription = By.className(".scrollbar");

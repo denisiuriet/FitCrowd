@@ -3,25 +3,34 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
           name="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java">
-        <groups>
-            <run>
-                <include name="create"/>
-            </run>
-        </groups>
+
+
+        <!-- <classes>
+             <class name="com.fit.admin.loginPage.LoginPageTests">
+                 <methods>
+                     <include name="validCredentials"/>
+                 </methods>
+
+             </class>
+
+             <class name="com.fit.admin.schedulePage.SchedulePageTests"/>
+
+         </classes>-->
 
         <classes>
-            <class name="LoginPageTests">
+            <class name="com.fit.client.verifyGym.VerifyGymTests">
+                <methods>
+                    <include name="validGymCode"/>
+                </methods>
+            </class>
+
+            <class name="com.fit.client.login.LoginPageTests">
                 <methods>
                     <include name="validCredentials"/>
                 </methods>
-
             </class>
 
-            <!--<class name="TrainerProfileTests"/>-->
-            <class name="ClassesPageTests"/>
-            <class name="SchedulePageTests"/>
-            <!--<class name="HomePageTests"/>-->
-            <!--<class name ="ForgotPasswordTests"/>-->
+            <class name="com.fit.client.appointments.AppointmentsPageTests"/>
 
         </classes>
 

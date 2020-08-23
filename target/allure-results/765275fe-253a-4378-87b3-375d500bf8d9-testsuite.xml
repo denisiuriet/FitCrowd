@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1597939201130" stop="1597939252573" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>All Test Suite : F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java</name>
+    <title>All Test Suite : F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java</title>
+    <test-cases>
+        <test-case start="1597939206987" stop="1597939209456" status="passed">
+            <name>validGymCode</name>
+            <steps>
+                <step start="1597939207060" stop="1597939207656" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="0a50454f-7af1-47cd-9c17-92bd430e3089-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1597939207657" stop="1597939207787" status="passed">
+                    <name>setGymCode[18GYM]</name>
+                    <title>Set Gym Code</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1597939207789" stop="1597939209452" status="passed">
+                    <name>successfulLogin</name>
+                    <title>Successful login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.verifyGym.VerifyGymTests"/>
+                <label name="testMethod" value="validGymCode"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="15080@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597939210130" stop="1597939211422" status="passed">
+            <name>validCredentials</name>
+            <steps>
+                <step start="1597939210135" stop="1597939210596" status="passed">
+                    <name>checkPage</name>
+                    <title>Check page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="1ca82583-fa92-42cb-aefa-b7e73a2ab2ef-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1597939210597" stop="1597939210733" status="passed">
+                    <name>setEmail[denis.yonutz98@gmail.com]</name>
+                    <title>Set Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1597939210734" stop="1597939210839" status="passed">
+                    <name>setPassword[abcd4321]</name>
+                    <title>Set Password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1597939210840" stop="1597939211422" status="passed">
+                    <name>successfulLogin</name>
+                    <title>Successful Login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.login.LoginPageTests"/>
+                <label name="testMethod" value="validCredentials"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="15080@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597939211765" stop="1597939212551" status="passed">
+            <name>selectDate</name>
+            <steps>
+                <step start="1597939211767" stop="1597939212372" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="0cee1981-33c9-4a8f-bbc1-852fca9da34c-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1597939212373" stop="1597939212491" status="passed">
+                    <name>dayView</name>
+                    <title>View Classes/Day</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1597939212494" stop="1597939212551" status="passed">
+                    <name>selectDate[8, 20]</name>
+                    <title>Get calendar date</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.schedule.SchedulePageTests"/>
+                <label name="testMethod" value="selectDate"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="15080@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597939212553" stop="1597939216317" status="passed">
+            <name>bookClass</name>
+            <steps>
+                <step start="1597939212554" stop="1597939213045" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="c9b92f5b-a77f-45b1-b484-b9c9395957ce-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1597939213047" stop="1597939216317" status="passed">
+                    <name>bookClass</name>
+                    <title>Select class</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1597939213325" stop="1597939213467" status="passed">
+                            <name>checkNoOfParticipants</name>
+                            <title>Check no. of participants</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1597939213470" stop="1597939213524" status="passed">
+                            <name>checkReservations</name>
+                            <title>Check Reservations</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1597939213933" stop="1597939214002" status="passed">
+                            <name>checkNoOfParticipants</name>
+                            <title>Check no. of participants</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1597939214003" stop="1597939214063" status="passed">
+                            <name>checkReservations</name>
+                            <title>Check Reservations</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1597939215835" stop="1597939215866" status="passed">
+                            <name>getAlertMessage</name>
+                            <title>Get alert message</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1597939215983" stop="1597939216260" status="passed">
+                            <name>getClassDetails</name>
+                            <title>Get class details</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.schedule.SchedulePageTests"/>
+                <label name="testMethod" value="bookClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="15080@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597939216320" stop="1597939217072" status="passed">
+            <name>attendToOnlineClass</name>
+            <steps>
+                <step start="1597939216321" stop="1597939216694" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="4fdcd195-60d0-4f7e-8fcd-d1c862e8b3d3-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1597939216695" stop="1597939217072" status="passed">
+                    <name>attendToOnlineClass</name>
+                    <title>Attend to Online Class</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.schedule.SchedulePageTests"/>
+                <label name="testMethod" value="attendToOnlineClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="15080@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597939217218" stop="1597939218249" status="passed">
+            <name>checkAttendClass</name>
+            <steps>
+                <step start="1597939217222" stop="1597939217743" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="11aca1ce-5823-48c5-bf4c-d69b245c4914-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1597939217744" stop="1597939218248" status="passed">
+                    <name>checkAttendClass</name>
+                    <title>Check Attend Class</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1597939217744" stop="1597939218031" status="passed">
+                            <name>selectClass</name>
+                            <title>Select Class</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.appointments.AppointmentsPageTests"/>
+                <label name="testMethod" value="checkAttendClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="15080@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597939218603" stop="1597939220012" status="passed">
+            <name>checkClass</name>
+            <steps>
+                <step start="1597939218605" stop="1597939219080" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="621dba41-7a5e-42de-99f3-5545a12b5bd7-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1597939219081" stop="1597939219691" status="passed">
+                    <name>viewClass</name>
+                    <title>View Class</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1597939219081" stop="1597939219350" status="passed">
+                            <name>selectClass</name>
+                            <title>Select Class</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1597939219692" stop="1597939219726" status="passed">
+                    <name>checkClassName</name>
+                    <title>Check Class Name</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1597939219726" stop="1597939219747" status="passed">
+                    <name>checkClassType</name>
+                    <title>Check Class Type</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1597939219748" stop="1597939219768" status="passed">
+                    <name>checkClassStatus</name>
+                    <title>Check Class Status</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1597939219769" stop="1597939219797" status="passed">
+                    <name>checkClassTrainer</name>
+                    <title>Check Class Trainer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1597939219798" stop="1597939219822" status="passed">
+                    <name>checkClassDate</name>
+                    <title>Check Class Date</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1597939219823" stop="1597939219851" status="passed">
+                    <name>checkClassStartTime</name>
+                    <title>Check Class Start Time</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1597939219851" stop="1597939219881" status="passed">
+                    <name>checkClassFinishTime</name>
+                    <title>Check Class Finish Time</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1597939219882" stop="1597939219908" status="passed">
+                    <name>checkClassLocation</name>
+                    <title>Check Class Location</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1597939219909" stop="1597939220011" status="passed">
+                    <name>checkClassDescription</name>
+                    <title>Check Class Description</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.appointments.AppointmentsPageTests"/>
+                <label name="testMethod" value="checkClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="15080@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597939220125" stop="1597939251472" status="broken">
+            <name>checkCancel</name>
+            <failure>
+                <message>TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: #root &gt; div &gt; div.container-open &gt; div.dashboard &gt; div &gt; div.bills-table &gt; div &gt; div.rt-table &gt; div.rt-tbody &gt; div:nth-child(2) &gt; div &gt; div:nth-child(6) &gt; div &gt; button.button-action.danger (tried for 30 second(s) with 500 milliseconds interval)</message>
+                <stack-trace>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: #root &gt; div &gt; div.container-open &gt; div.dashboard &gt; div &gt; div.bills-table &gt; div &gt; div.rt-table &gt; div.rt-tbody &gt; div:nth-child(2) &gt; div &gt; div:nth-child(6) &gt; div &gt; button.button-action.danger (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.fit.client.appointments.AppointmentsPage.checkCancelClass(AppointmentsPage.java:154)
+	at com.fit.client.appointments.AppointmentsPageTests.checkCancel(AppointmentsPageTests.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".\#root\ \&gt;\ div\ \&gt;\ div\.container\-open\ \&gt;\ div\.dashboard\ \&gt;\ div\ \&gt;\ div\.bills\-table\ \&gt;\ div\ \&gt;\ div\.rt\-table\ \&gt;\ div\.rt\-tbody\ \&gt;\ div\:nth\-child\(2\)\ \&gt;\ div\ \&gt;\ div\:nth\-child\(6\)\ \&gt;\ div\ \&gt;\ button\.button\-action\.danger"}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OH5VSFP', ip: '192.168.0.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\iurie\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61654}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: b594d44983de9c55c2ecfd3f06d...}
+Session ID: b594d44983de9c55c2ecfd3f06dda7c6
+*** Element info: {Using=class name, value=#root &gt; div &gt; div.container-open &gt; div.dashboard &gt; div &gt; div.bills-table &gt; div &gt; div.rt-table &gt; div.rt-tbody &gt; div:nth-child(2) &gt; div &gt; div:nth-child(6) &gt; div &gt; button.button-action.danger}
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 25 more
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1597939220127" stop="1597939220684" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="c6466e53-7220-4e41-a43f-0fde87a5fc95-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1597939220685" stop="1597939251452" status="broken">
+                    <name>checkCancelClass</name>
+                    <title>Check Cancel Class</title>
+                    <steps>
+                        <step start="1597939220685" stop="1597939220963" status="passed">
+                            <name>selectClass</name>
+                            <title>Select Class</title>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.appointments.AppointmentsPageTests"/>
+                <label name="testMethod" value="checkCancel"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="15080@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597939251629" stop="1597939252570" status="broken">
+            <name>checkBook</name>
+            <failure>
+                <message>NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".\#root\ \&gt;\ div\ \&gt;\ div\.container\-open\ \&gt;\ div\.dashboard\ \&gt;\ div\ \&gt;\ div\.bills\-table\ \&gt;\ div\ \&gt;\ div\.rt\-table\ \&gt;\ div\.rt\-tbody\ \&gt;\ div\:nth\-child\(2\)\ \&gt;\ div\ \&gt;\ div\:nth\-child\(6\)\ \&gt;\ div\ \&gt;\ button\.button\-action\.danger"}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OH5VSFP', ip: '192.168.0.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\iurie\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61654}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: b594d44983de9c55c2ecfd3f06d...}
+Session ID: b594d44983de9c55c2ecfd3f06dda7c6
+*** Element info: {Using=class name, value=#root &gt; div &gt; div.container-open &gt; div.dashboard &gt; div &gt; div.bills-table &gt; div &gt; div.rt-table &gt; div.rt-tbody &gt; div:nth-child(2) &gt; div &gt; div:nth-child(6) &gt; div &gt; button.button-action.danger}</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".\#root\ \&gt;\ div\ \&gt;\ div\.container\-open\ \&gt;\ div\.dashboard\ \&gt;\ div\ \&gt;\ div\.bills\-table\ \&gt;\ div\ \&gt;\ div\.rt\-table\ \&gt;\ div\.rt\-tbody\ \&gt;\ div\:nth\-child\(2\)\ \&gt;\ div\ \&gt;\ div\:nth\-child\(6\)\ \&gt;\ div\ \&gt;\ button\.button\-action\.danger"}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OH5VSFP', ip: '192.168.0.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\iurie\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61654}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: b594d44983de9c55c2ecfd3f06d...}
+Session ID: b594d44983de9c55c2ecfd3f06dda7c6
+*** Element info: {Using=class name, value=#root &gt; div &gt; div.container-open &gt; div.dashboard &gt; div &gt; div.bills-table &gt; div &gt; div.rt-table &gt; div.rt-tbody &gt; div:nth-child(2) &gt; div &gt; div:nth-child(6) &gt; div &gt; button.button-action.danger}
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:185)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementByClassName(RemoteWebElement.java:245)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:181)
+	at com.fit.client.appointments.AppointmentsPage.checkBookClass(AppointmentsPage.java:166)
+	at com.fit.client.appointments.AppointmentsPageTests.checkBook(AppointmentsPageTests.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1597939251631" stop="1597939252226" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="915c4fe7-aa4a-46db-9524-43b7f5ba3f79-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1597939252227" stop="1597939252566" status="broken">
+                    <name>checkBookClass</name>
+                    <title>Check Book Class</title>
+                    <steps>
+                        <step start="1597939252227" stop="1597939252540" status="passed">
+                            <name>selectClass</name>
+                            <title>Select Class</title>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.appointments.AppointmentsPageTests"/>
+                <label name="testMethod" value="checkBook"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="15080@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

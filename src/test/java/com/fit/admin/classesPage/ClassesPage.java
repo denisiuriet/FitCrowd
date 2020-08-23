@@ -7,6 +7,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import resource.ClientElements;
 import resource.Elements;
 import resource.Utility;
 import ru.yandex.qatools.allure.annotations.Step;
@@ -179,18 +181,15 @@ public class ClassesPage {
     }
 
     @Step("Check if class was created")
-    public boolean confirmClass() {
+    public void confirmClass() {
         wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.classesList));
         List<WebElement> listOfClasses = driver.findElements(Elements.classesList);
         for (WebElement element : listOfClasses) {
             wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.classDetails));
-            if (element.findElements(Elements.classDetails).get(0).getText().equals("Test18")) {
-                Utility.takeScreenshot(driver);
-                return true;
-            }
+            Utility.takeScreenshot(driver);
         }
 
-        return false;
+
     }
 
     @Step("Delete class")
@@ -205,9 +204,16 @@ public class ClassesPage {
         }
     }
 
+    @Step("Get Alert Message")
+    public String getAlertMessage() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.alertMessage));
+        return driver.findElement(ClientElements.alert).getText();
+    }
+
     @Step("Confirm delete")
     public void confirmDeleteClass() {
         driver.switchTo().activeElement().findElement(Elements.confirmButton).click();
+        Assert.assertEquals(this.getAlertMessage(), "Class model deleted");
     }
 
     @Step("View Class")
@@ -228,12 +234,17 @@ public class ClassesPage {
     }
 
     @Step("Open Edit Window")
-    public void editClass(String className) {
+    public void editClass(String className) throws IOException {
+        file = new File("ClassData.txt");
+        writer = new FileWriter(file);
+        driver.navigate().to("https://admin-dev.fitcrowd.net/classes");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.classTable));
         List<WebElement> list = driver.findElement(Elements.classTable).findElements(Elements.tableElements);
         for (WebElement element : list) {
             List<WebElement> elementsOfRow = element.findElements(Elements.rowElements);
             if (elementsOfRow.get(0).getText().equals(className)) {
                 elementsOfRow.get(5).findElements(Elements.actionButtons).get(1).click();
+                break;
             }
         }
     }

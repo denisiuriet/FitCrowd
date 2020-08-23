@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1597755977163" stop="1597755986407" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : FitCrowd</name>
+    <title>Default Suite : FitCrowd</title>
+    <test-cases>
+        <test-case start="1597755983547" stop="1597755985075" status="passed">
+            <name>invalidGymCode</name>
+            <steps>
+                <step start="1597755983606" stop="1597755984222" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="b0666c06-c1da-4667-9d51-7d472a9ff6d9-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1597755984223" stop="1597755984504" status="passed">
+                    <name>setGymCode[TestGymCode]</name>
+                    <title>Set Gym Code</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1597755984504" stop="1597755985028" status="passed">
+                    <name>failedLogin</name>
+                    <title>Failed Login</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="60128ee1-4811-4858-a77a-f1fc63cc6098-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1597755985029" stop="1597755985066" status="passed">
+                    <name>getInvalidGymCodeError</name>
+                    <title>Get Invalid Gym Code Error</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="FitCrowd"/>
+                <label name="testClass" value="com.fit.client.verifyGym.VerifyGymTests"/>
+                <label name="testMethod" value="invalidGymCode"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="6976@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597755985387" stop="1597755986402" status="passed">
+            <name>missingGymCode</name>
+            <steps>
+                <step start="1597755985392" stop="1597755985827" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="f0335681-05f7-43af-87c3-4dbb5b3e9260-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1597755985828" stop="1597755986364" status="passed">
+                    <name>failedLogin</name>
+                    <title>Failed Login</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="efe4aae0-3580-4759-b283-cf6faf912abc-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1597755986366" stop="1597755986401" status="passed">
+                    <name>getMissingGymCodeError</name>
+                    <title>Get Missing Gym Code Error</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="FitCrowd"/>
+                <label name="testClass" value="com.fit.client.verifyGym.VerifyGymTests"/>
+                <label name="testMethod" value="missingGymCode"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="6976@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
