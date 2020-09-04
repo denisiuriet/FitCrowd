@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1599207946412" stop="1599207979825" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>All Test Suite : F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java</name>
+    <title>All Test Suite : F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java</title>
+    <test-cases>
+        <test-case start="1599207951947" stop="1599207954253" status="passed">
+            <name>validGymCode</name>
+            <steps>
+                <step start="1599207951975" stop="1599207952514" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="60dafe2d-2d19-44b1-a732-a1c0d940a104-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207952515" stop="1599207952627" status="passed">
+                    <name>setGymCode[18GYM]</name>
+                    <title>Set Gym Code</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599207952628" stop="1599207954251" status="passed">
+                    <name>successfulLogin</name>
+                    <title>Successful login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.verifyGym.VerifyGymTests"/>
+                <label name="testMethod" value="validGymCode"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207954561" stop="1599207955068" status="passed">
+            <name>invalidEmail</name>
+            <steps>
+                <step start="1599207954562" stop="1599207954894" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="2af269bf-5178-4b14-9ae8-97f7545f7c99-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207954895" stop="1599207954976" status="passed">
+                    <name>setEmail[TestEmail]</name>
+                    <title>Set Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599207954977" stop="1599207955068" status="passed">
+                    <name>getEmailError</name>
+                    <title>Get Email Error</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.forgotPassword.ForgotPasswordTests"/>
+                <label name="testMethod" value="invalidEmail"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207955122" stop="1599207955863" status="passed">
+            <name>missingEmail</name>
+            <steps>
+                <step start="1599207955125" stop="1599207955437" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="b336e9a1-5009-4d1f-9fcf-bcad65050e7c-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207955438" stop="1599207955800" status="passed">
+                    <name>resetPassword</name>
+                    <title>Reset Password</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="40f17127-26d9-4631-9815-2cbd53fb4148-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207955801" stop="1599207955862" status="passed">
+                    <name>getEmailError</name>
+                    <title>Get Email Error</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.forgotPassword.ForgotPasswordTests"/>
+                <label name="testMethod" value="missingEmail"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207955913" stop="1599207956379" status="passed">
+            <name>returnToLogin</name>
+            <steps>
+                <step start="1599207955914" stop="1599207956230" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="735334f4-d6f3-4882-a985-8dcc17773203-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207956230" stop="1599207956378" status="passed">
+                    <name>returnToLogin</name>
+                    <title>Check Return To Login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.forgotPassword.ForgotPasswordTests"/>
+                <label name="testMethod" value="returnToLogin"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207956429" stop="1599207958365" status="passed">
+            <name>validEmail</name>
+            <steps>
+                <step start="1599207956430" stop="1599207956767" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="29033494-d6fe-41a0-b883-0a43cecf9a84-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207956768" stop="1599207956867" status="passed">
+                    <name>setEmail[denis.yonutz98@gmail.com]</name>
+                    <title>Set Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599207956867" stop="1599207957231" status="passed">
+                    <name>resetPassword</name>
+                    <title>Reset Password</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="331cdd99-d28c-4f11-a861-362622fec5b6-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207957231" stop="1599207958364" status="passed">
+                    <name>getAlertMessage</name>
+                    <title>Get Alert Message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.forgotPassword.ForgotPasswordTests"/>
+                <label name="testMethod" value="validEmail"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207958411" stop="1599207959265" status="passed">
+            <name>wrongEmail</name>
+            <steps>
+                <step start="1599207958412" stop="1599207958732" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="936b2161-7662-41f5-a465-921ceaf7bcc3-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207958732" stop="1599207958823" status="passed">
+                    <name>setEmail[TestEmail@gmail.com]</name>
+                    <title>Set Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599207958824" stop="1599207959214" status="passed">
+                    <name>resetPassword</name>
+                    <title>Reset Password</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="4b332a4a-0508-4519-932f-5eeae51da911-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207959215" stop="1599207959265" status="passed">
+                    <name>getAlertMessage</name>
+                    <title>Get Alert Message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.forgotPassword.ForgotPasswordTests"/>
+                <label name="testMethod" value="wrongEmail"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207959539" stop="1599207960709" status="passed">
+            <name>validCredentials</name>
+            <steps>
+                <step start="1599207959541" stop="1599207959910" status="passed">
+                    <name>checkPage</name>
+                    <title>Check page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="6bcb0e2b-2567-4844-bd74-144f86041f3e-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207959911" stop="1599207960037" status="passed">
+                    <name>setEmail[denis.yonutz98@gmail.com]</name>
+                    <title>Set Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599207960038" stop="1599207960125" status="passed">
+                    <name>setPassword[abcd1234]</name>
+                    <title>Set Password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599207960126" stop="1599207960708" status="passed">
+                    <name>successfulLogin</name>
+                    <title>Successful Login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.login.LoginPageTests"/>
+                <label name="testMethod" value="validCredentials"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207960814" stop="1599207961835" status="passed">
+            <name>uploadImage</name>
+            <steps>
+                <step start="1599207960815" stop="1599207961188" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="ff90b3ca-37e6-4f62-b589-64aa2c621a3b-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207961189" stop="1599207961835" status="passed">
+                    <name>uploadClientImage</name>
+                    <title>Upload Client Image</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="60389135-2224-4ace-8d3d-d8169398aa99-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.clientProfile.ClientProfileTests"/>
+                <label name="testMethod" value="uploadImage"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207961836" stop="1599207962321" status="passed">
+            <name>updateFirstName</name>
+            <steps>
+                <step start="1599207961837" stop="1599207962170" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="f45e42d2-3ead-4c9c-9bae-40d20d381d0c-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207962171" stop="1599207962321" status="passed">
+                    <name>updateFirstName[Denis]</name>
+                    <title>Update First Name</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.clientProfile.ClientProfileTests"/>
+                <label name="testMethod" value="updateFirstName"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207962323" stop="1599207962807" status="passed">
+            <name>updateLastName</name>
+            <steps>
+                <step start="1599207962323" stop="1599207962664" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="b72da953-0f6a-4f3d-8ac9-dad859e5779e-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207962664" stop="1599207962807" status="passed">
+                    <name>updateLastName[Iuriet]</name>
+                    <title>Update Last Name</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.clientProfile.ClientProfileTests"/>
+                <label name="testMethod" value="updateLastName"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207962808" stop="1599207963298" status="passed">
+            <name>updatePhoneNumber</name>
+            <steps>
+                <step start="1599207962808" stop="1599207963144" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="c2c57f60-37d0-4b48-b85b-68ff4305029b-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207963144" stop="1599207963298" status="passed">
+                    <name>updatePhone[987654321]</name>
+                    <title>Update Phone Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.clientProfile.ClientProfileTests"/>
+                <label name="testMethod" value="updatePhoneNumber"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207963299" stop="1599207963855" status="passed">
+            <name>updateEmail</name>
+            <steps>
+                <step start="1599207963300" stop="1599207963638" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="001c6cb5-cddc-4312-be39-3183f578ff7d-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207963638" stop="1599207963855" status="passed">
+                    <name>updateEmail[Denis.yonutz98@gmail.com]</name>
+                    <title>Update Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.clientProfile.ClientProfileTests"/>
+                <label name="testMethod" value="updateEmail"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207963856" stop="1599207964326" status="passed">
+            <name>updateStreetName</name>
+            <steps>
+                <step start="1599207963856" stop="1599207964183" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="320da74f-224e-4ed7-82ba-6a1232f392c6-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207964183" stop="1599207964326" status="passed">
+                    <name>updateStreetName[Dorobantilor]</name>
+                    <title>Update Street Name</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.clientProfile.ClientProfileTests"/>
+                <label name="testMethod" value="updateStreetName"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207964327" stop="1599207964780" status="passed">
+            <name>updateStreetNumber</name>
+            <steps>
+                <step start="1599207964328" stop="1599207964675" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="c3bd6cc3-7e7a-40f8-a46f-ed867ae6a69e-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207964675" stop="1599207964780" status="passed">
+                    <name>updateStreetNumber[20]</name>
+                    <title>Update Street Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.clientProfile.ClientProfileTests"/>
+                <label name="testMethod" value="updateStreetNumber"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207964781" stop="1599207965262" status="passed">
+            <name>updateCity</name>
+            <steps>
+                <step start="1599207964782" stop="1599207965116" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="9858e875-4e45-42ee-851c-82a691832d0b-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207965116" stop="1599207965262" status="passed">
+                    <name>updateCity[Cluj-Napoca]</name>
+                    <title>Update City</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.clientProfile.ClientProfileTests"/>
+                <label name="testMethod" value="updateCity"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207965263" stop="1599207965760" status="passed">
+            <name>updateCountry</name>
+            <steps>
+                <step start="1599207965265" stop="1599207965621" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="d2f2200b-e7ec-4d5f-a66b-137799ac6e5a-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207965622" stop="1599207965760" status="passed">
+                    <name>updateCountry[Romania]</name>
+                    <title>Update Country</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.clientProfile.ClientProfileTests"/>
+                <label name="testMethod" value="updateCountry"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207965761" stop="1599207966215" status="passed">
+            <name>updateCounty</name>
+            <steps>
+                <step start="1599207965762" stop="1599207966099" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="a61dd077-1728-4745-8f47-03825191c1f9-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207966100" stop="1599207966215" status="passed">
+                    <name>updateCounty[Cluj]</name>
+                    <title>Update County</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.clientProfile.ClientProfileTests"/>
+                <label name="testMethod" value="updateCounty"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207966216" stop="1599207967245" status="passed">
+            <name>updateProfile</name>
+            <steps>
+                <step start="1599207966217" stop="1599207966578" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="9ebc8ef9-cd83-486c-9d85-c2f39c470f56-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207966578" stop="1599207966660" status="passed">
+                    <name>updateProfile</name>
+                    <title>Update Profile</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599207966661" stop="1599207967244" status="passed">
+                    <name>getAlertMessage</name>
+                    <title>Get Alert Message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.clientProfile.ClientProfileTests"/>
+                <label name="testMethod" value="updateProfile"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207967246" stop="1599207968376" status="passed">
+            <name>confirmUpdateProfile</name>
+            <steps>
+                <step start="1599207967246" stop="1599207967582" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="18bdb05c-d4ae-4001-af6a-25dccbff7821-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207967582" stop="1599207968376" status="passed">
+                    <name>confirmUpdate</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.clientProfile.ClientProfileTests"/>
+                <label name="testMethod" value="confirmUpdateProfile"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207968471" stop="1599207969000" status="passed">
+            <name>selectDate</name>
+            <steps>
+                <step start="1599207968472" stop="1599207968861" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="39e3c485-02de-427f-ad37-d0911d982fbf-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207968861" stop="1599207968944" status="passed">
+                    <name>dayView</name>
+                    <title>View Classes/Day</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599207968947" stop="1599207969000" status="passed">
+                    <name>selectDate[0]</name>
+                    <title>Get calendar date</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.schedule.SchedulePageTests"/>
+                <label name="testMethod" value="selectDate"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207969002" stop="1599207970377" status="passed">
+            <name>cancelClass</name>
+            <steps>
+                <step start="1599207969003" stop="1599207969317" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="963d049d-cca9-45d5-8801-5cfb98c81d9c-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207969318" stop="1599207970377" status="passed">
+                    <name>cancelClass</name>
+                    <title>Cancel class</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599207969518" stop="1599207969548" status="passed">
+                            <name>checkReservations</name>
+                            <title>Check Reservations</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1599207969862" stop="1599207969885" status="passed">
+                            <name>checkReservations</name>
+                            <title>Check Reservations</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1599207970203" stop="1599207970227" status="passed">
+                            <name>checkReservations</name>
+                            <title>Check Reservations</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.schedule.SchedulePageTests"/>
+                <label name="testMethod" value="cancelClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207970378" stop="1599207973083" status="passed">
+            <name>bookClass</name>
+            <steps>
+                <step start="1599207970379" stop="1599207970717" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="b7a81554-c511-4449-94ef-abbbc447e55e-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207970717" stop="1599207973082" status="passed">
+                    <name>bookClass</name>
+                    <title>Book class</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599207970895" stop="1599207970921" status="passed">
+                            <name>checkNoOfParticipants</name>
+                            <title>Check no. of participants</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1599207970922" stop="1599207970943" status="passed">
+                            <name>checkReservations</name>
+                            <title>Check Reservations</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1599207972667" stop="1599207972689" status="passed">
+                            <name>getAlertMessage</name>
+                            <title>Get alert message</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1599207972775" stop="1599207973028" status="passed">
+                            <name>getClassDetails</name>
+                            <title>Get class details</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.schedule.SchedulePageTests"/>
+                <label name="testMethod" value="bookClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207973085" stop="1599207973763" status="passed">
+            <name>attendToOnlineClass</name>
+            <steps>
+                <step start="1599207973086" stop="1599207973398" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="93ea49ff-2bfb-41ad-9d0f-10553b667322-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207973398" stop="1599207973763" status="passed">
+                    <name>attendToOnlineClass</name>
+                    <title>Attend to Online Class</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.schedule.SchedulePageTests"/>
+                <label name="testMethod" value="attendToOnlineClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207973851" stop="1599207974496" status="passed">
+            <name>checkAttendClass</name>
+            <steps>
+                <step start="1599207973852" stop="1599207974230" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="b628e277-6ff5-4e81-87af-36f766ae8035-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207974230" stop="1599207974496" status="passed">
+                    <name>checkAttendClass</name>
+                    <title>Check Attend Class</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599207974230" stop="1599207974318" status="passed">
+                            <name>selectClass</name>
+                            <title>Select Class</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.appointments.AppointmentsPageTests"/>
+                <label name="testMethod" value="checkAttendClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207974570" stop="1599207975175" status="passed">
+            <name>inspectClass</name>
+            <steps>
+                <step start="1599207974570" stop="1599207974921" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="7c4018c1-87b2-488e-9bdd-417ff6dfd76b-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207974922" stop="1599207975175" status="passed">
+                    <name>viewClass</name>
+                    <title>View Class</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599207974922" stop="1599207974995" status="passed">
+                            <name>selectClass</name>
+                            <title>Select Class</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.appointments.AppointmentsPageTests"/>
+                <label name="testMethod" value="inspectClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207975230" stop="1599207977605" status="passed">
+            <name>checkCancel</name>
+            <steps>
+                <step start="1599207975230" stop="1599207975579" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="1f5ed7b1-4465-467a-9931-9642df838230-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207975579" stop="1599207977605" status="passed">
+                    <name>checkCancelClass</name>
+                    <title>Check Cancel Class</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599207975579" stop="1599207975652" status="passed">
+                            <name>selectClass</name>
+                            <title>Select Class</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.appointments.AppointmentsPageTests"/>
+                <label name="testMethod" value="checkCancel"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599207977662" stop="1599207979822" status="passed">
+            <name>checkBook</name>
+            <steps>
+                <step start="1599207977662" stop="1599207978005" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="c4d7f180-5dac-432a-be9d-ced24e0f76c6-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599207978005" stop="1599207979822" status="passed">
+                    <name>checkBookClass</name>
+                    <title>Check Book Class</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599207978006" stop="1599207978076" status="passed">
+                            <name>selectClass</name>
+                            <title>Select Class</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.client.appointments.AppointmentsPageTests"/>
+                <label name="testMethod" value="checkBook"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="14204@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

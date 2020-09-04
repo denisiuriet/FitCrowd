@@ -30,6 +30,8 @@ public class Elements {
 
     //Classes Page Elements
     public final static By createButton = By.cssSelector("#root > div > div.container-open > div.dashboard > div > div.title-container > div > button");
+    public final static By createdClasses = By.className("rt-tr-group");
+    public final static By classDetails = By.className("rt-td");
 
     //Create Class Elements
     public final static By divTag = By.tagName("div");
@@ -55,34 +57,23 @@ public class Elements {
     public final static By classTime = By.cssSelector("input[role=spinbutton]");
     public final static By submitButton = By.cssSelector("button[type=submit]");
 
-    public final static By classesList = By.className("rt-tr-group");
-    public final static By classDetails = By.className("rt-td");
-
     //View, Edit, Delete class buttons
-    public final static By classTable = By.className("rt-tbody");
-    public final static By tableElements = By.className("rt-tr-group");
-    public final static By rowElements = By.className("rt-td");
     public final static By actionButtons = By.className("button-icon");
     public final static By confirmButton = By.cssSelector("button[type=submit]");
-    public final static By closeView = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-header > div.modal-buttons > button > i");
+    public final static By closeView = By.className("button-icon");
 
     //Edit Window
     public final static By editClassLocation = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.row.form-content > div.inputs-side.col-2 > div > div > div:nth-child(4) > div > div > div.css-1wy0on6");
 
     //Schedule Page Elements
-    public final static By selectScheduledClass = By.cssSelector("div[title=Test18]");
-
-    public final static By scheduleClassType = By.className("css-107lb6w-singleValue");
-    public final static By scheduleClassName = By.cssSelector("input[name=name]");
-    public final static By scheduleClassLocation = By.className("css-107lb6w-singleValue");
-    public final static By scheduleClassDate = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.row.form-content > div.inputs-side.col-2 > div > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1) > input[type=text]");
-    public final static By scheduleClassParticipants = By.cssSelector("#number-of-participants > p");
-    public final static By scheduleClassOpenRegistration = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.row.form-content > div.inputs-side.col-2 > div > div:nth-child(3) > div:nth-child(2) > div > p");
-    public final static By scheduleClassCloseRegistration = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.row.form-content > div.inputs-side.col-2 > div > div:nth-child(3) > div:nth-child(3) > div > p");
-    public final static By scheduleClassDescription = By.className(".scrollbar");
-    public final static By startClassTime = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.row.form-content > div.inputs-side.col-2 > div > div:nth-child(2) > div:nth-child(3) > div > time:nth-child(1)");
-    public final static By finishClassTime = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.row.form-content > div.inputs-side.col-2 > div > div:nth-child(2) > div:nth-child(3) > div > time:nth-child(2)");
-    public final static By closeButton = By.className("button-icon");
+    public final static By scheduleDayView = By.cssSelector("#root > div > div.container-open > div.dashboard > div > div.classes-schedule > div > div.rbc-toolbar > span:nth-child(3) > button:nth-child(3)");
+    public final static By editButton = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.class-actions-container > button:nth-child(1)");
+    public final static By saveButton = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.class-actions-container > button:nth-child(2)");
+    public final static By scheduleOpenRegistration = By.cssSelector("input[name=openForAttendees]");
+    public final static By scheduleEditDate = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.row.form-content > div.inputs-side.col-2 > div > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1) > input[type=text]");
+    public final static By scheduleTableOfDates = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.row.form-content > div.inputs-side.col-2 > div > div:nth-child(2) > div:nth-child(2) > div > div.datetime-picker.datetime-picker-popup > div:nth-child(2) > div > div.calendar-days > table");
+    public final static By scheduleClasses = By.className("rbc-events-container");
+    public final static By scheduleClass = By.className("rbc-event-content");
 
     //Trainer Profile Page Elements
     public final static By trainerImage = By.className("image-container");

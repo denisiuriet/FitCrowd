@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1599212772831" stop="1599212850356" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>All Test Suite : F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java</name>
+    <title>All Test Suite : F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java</title>
+    <test-cases>
+        <test-case start="1599212780463" stop="1599212781734" status="passed">
+            <name>invalidEmail</name>
+            <steps>
+                <step start="1599212780492" stop="1599212781006" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="6eebcd49-d011-4559-bdff-ec69e071d5c1-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212781007" stop="1599212781159" status="passed">
+                    <name>setEmail[123@gmail.com]</name>
+                    <title>Set email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212781160" stop="1599212781592" status="passed">
+                    <name>checkResetButton</name>
+                    <title>Check Reset Button</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="8d8e0989-862c-47d0-8b41-e3766d05a971-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212781691" stop="1599212781726" status="passed">
+                    <name>getAlertMessage</name>
+                    <title>Get alert message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.forgotPasswordPage.ForgotPasswordTests"/>
+                <label name="testMethod" value="invalidEmail"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="31392@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599212781989" stop="1599212782879" status="passed">
+            <name>missingEmail</name>
+            <steps>
+                <step start="1599212781992" stop="1599212782391" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="d90d0035-c570-4747-ae74-0565c6963461-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212782392" stop="1599212782805" status="passed">
+                    <name>checkResetButton</name>
+                    <title>Check Reset Button</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="919d4d47-da50-46fd-aef4-33a4c440bfd9-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212782851" stop="1599212782879" status="passed">
+                    <name>getEmailError</name>
+                    <title>Get error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.forgotPasswordPage.ForgotPasswordTests"/>
+                <label name="testMethod" value="missingEmail"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="31392@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599212783124" stop="1599212783705" status="passed">
+            <name>returnToLogin</name>
+            <steps>
+                <step start="1599212783130" stop="1599212783505" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="a4a0d01d-a4d4-4593-b01c-ed0b721f703f-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212783506" stop="1599212783704" status="passed">
+                    <name>returnToLogin</name>
+                    <title>Return to login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.forgotPasswordPage.ForgotPasswordTests"/>
+                <label name="testMethod" value="returnToLogin"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="31392@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599212783972" stop="1599212786509" status="passed">
+            <name>validEmail</name>
+            <steps>
+                <step start="1599212783973" stop="1599212784354" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="385e6ced-d025-4f81-a55c-491069e4093b-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212784355" stop="1599212784478" status="passed">
+                    <name>setEmail[denisiuriet.test@gmail.com]</name>
+                    <title>Set email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212784478" stop="1599212784888" status="passed">
+                    <name>checkResetButton</name>
+                    <title>Check Reset Button</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="1d83b5df-9d42-475a-9622-6658579d38db-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212786483" stop="1599212786509" status="passed">
+                    <name>getAlertMessage</name>
+                    <title>Get alert message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.forgotPasswordPage.ForgotPasswordTests"/>
+                <label name="testMethod" value="validEmail"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="31392@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599212787092" stop="1599212789611" status="passed">
+            <name>validCredentials</name>
+            <steps>
+                <step start="1599212787094" stop="1599212787505" status="passed">
+                    <name>checkPage</name>
+                    <title>Check page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="d3a187ac-be5c-43b5-b4cd-6ceb5e43ea48-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212787506" stop="1599212787989" status="passed">
+                    <name>setEmail[denisiuriet.test@gmail.com]</name>
+                    <title>Set Email</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="587319e8-f17b-41dd-a23b-9857c0aea907-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212787990" stop="1599212788434" status="passed">
+                    <name>setPassword[abcd1234]</name>
+                    <title>Set Password</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="82eb2adc-1c22-4320-81af-26738612ec0f-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212788434" stop="1599212789611" status="passed">
+                    <name>successfulLogin</name>
+                    <title>Check successful login</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="fbf69b25-f969-421b-b659-1e96caf0473d-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.loginPage.LoginPageTests"/>
+                <label name="testMethod" value="validCredentials"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="31392@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599212789884" stop="1599212793841" status="passed">
+            <name>updateTrainerProfile</name>
+            <steps>
+                <step start="1599212789887" stop="1599212790288" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="3a5b957d-f5d5-461f-8822-716102be4213-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212790289" stop="1599212790927" status="passed">
+                    <name>addTrainerImage</name>
+                    <title>Add Trainer Image</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="adf64584-38ef-46f3-ae64-513f981ce928-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212790928" stop="1599212791330" status="passed">
+                    <name>updateFirstName[Denis]</name>
+                    <title>Update First Name</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212791331" stop="1599212791526" status="passed">
+                    <name>updateLastName[Iuriet]</name>
+                    <title>Update Last Name</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212791526" stop="1599212791774" status="passed">
+                    <name>updateEmail[denisiuriet.test@gmail.com]</name>
+                    <title>Update Email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212791775" stop="1599212791912" status="passed">
+                    <name>updatePhoneNo[123456789]</name>
+                    <title>Update Phone No.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212791912" stop="1599212792062" status="passed">
+                    <name>updateCountry[TestCountry]</name>
+                    <title>Update Country</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212792062" stop="1599212792209" status="passed">
+                    <name>updateCounty[TestCounty]</name>
+                    <title>Update County</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212792210" stop="1599212792351" status="passed">
+                    <name>updateCity[TestCity]</name>
+                    <title>Update City</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212792352" stop="1599212792559" status="passed">
+                    <name>updateStreetName[TestStreetName]</name>
+                    <title>Update Street Name</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212792559" stop="1599212792724" status="passed">
+                    <name>updateStreetNo[1]</name>
+                    <title>Update Street No.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212792726" stop="1599212792918" status="passed">
+                    <name>updateDescription[TestDescription]</name>
+                    <title>Update Description</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212792919" stop="1599212793096" status="passed">
+                    <name>insertAccreditation[TestAccreditation]</name>
+                    <title>Insert Accreditation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212793097" stop="1599212793164" status="passed">
+                    <name>addAccreditation</name>
+                    <title>Add Accreditation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212793165" stop="1599212793241" status="passed">
+                    <name>updateTrainerProfile</name>
+                    <title>Update Trainer Profile</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212793243" stop="1599212793841" status="passed">
+                    <name>getAlertMessage</name>
+                    <title>Get Alert Message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.trainerProfilePage.TrainerProfileTests"/>
+                <label name="testMethod" value="updateTrainerProfile"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="31392@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599212793987" stop="1599212824494" status="broken">
+            <name>confirmUpdateProfile</name>
+            <failure>
+                <message>TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: input[name=firstName] (tried for 30 second(s) with 500 milliseconds interval)</message>
+                <stack-trace>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: input[name=firstName] (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.fit.admin.trainerProfilePage.TrainerProfile.confirmUpdate(TrainerProfile.java:161)
+	at com.fit.admin.trainerProfilePage.TrainerProfileTests.confirmUpdateProfile(TrainerProfileTests.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[name=firstName]"}
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OH5VSFP', ip: '192.168.0.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\iurie\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56928}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: a7080b042783f9e5e8ad6d819d1...}
+Session ID: a7080b042783f9e5e8ad6d819d190a5f
+*** Element info: {Using=css selector, value=input[name=firstName]}
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 25 more
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1599212793988" stop="1599212794377" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="17d5272f-22f7-4cee-824c-e1967151a465-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1599212794377" stop="1599212824480" status="broken">
+                    <name>confirmUpdate</name>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.trainerProfilePage.TrainerProfileTests"/>
+                <label name="testMethod" value="confirmUpdateProfile"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="31392@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599212824767" stop="1599212834770" status="passed">
+            <name>createClass</name>
+            <steps>
+                <step start="1599212824770" stop="1599212825251" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="51be1714-a9a7-4df6-a50b-a4b0ed91dd5d-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212825251" stop="1599212825419" status="passed">
+                    <name>clickCreate</name>
+                    <title>Click create button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212825420" stop="1599212825735" status="passed">
+                    <name>selectClassType</name>
+                    <title>Select Class Type</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212825736" stop="1599212826363" status="passed">
+                    <name>setClassName[Test7]</name>
+                    <title>Set Class Name</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="611cd7b5-aacd-4bee-9e17-be8b375bbf0f-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212826364" stop="1599212826639" status="passed">
+                    <name>setClassLocation[0]</name>
+                    <title>Set Class Location</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212826640" stop="1599212827957" status="passed">
+                    <name>addImage</name>
+                    <title>Add image</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="a05a87ad-da90-431e-9798-0fab7a16f8cc-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212827958" stop="1599212828465" status="passed">
+                    <name>setOpenRegistration[24]</name>
+                    <title>Set Open Registration</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="590a21b9-00c7-4d45-9331-819029a83aa8-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212828465" stop="1599212828996" status="passed">
+                    <name>setCloseRegistration[0]</name>
+                    <title>Set Close Registration</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="659b0929-2de7-456b-9376-c87f3bca953d-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212828997" stop="1599212829787" status="passed">
+                    <name>setParticipants[10]</name>
+                    <title>Set Participants</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="c1b3a3e2-a109-43ce-9715-f8d7fea4aecc-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212829788" stop="1599212830549" status="passed">
+                    <name>setDuration[45]</name>
+                    <title>Set duration</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="201f744d-6421-49bc-8791-d5a400c67210-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212830550" stop="1599212830652" status="passed">
+                    <name>clickBeginningDate</name>
+                    <title>Click on beginning date</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212830653" stop="1599212831023" status="passed">
+                    <name>setDate[1]</name>
+                    <title>Set date</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212831031" stop="1599212831803" status="passed">
+                    <name>setTime[, , , ]</name>
+                    <title>Set class time</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="7eb8dfae-fee8-42ba-9f8a-6ae275964429-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212831803" stop="1599212832515" status="passed">
+                    <name>setDescription[Class Description]</name>
+                    <title>Set class description</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="2cb82a4d-a1d8-4510-99fa-98bab2238138-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212832516" stop="1599212834769" status="passed">
+                    <name>createClass</name>
+                    <title>Create class</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599212834745" stop="1599212834769" status="passed">
+                            <name>getAlertMessage</name>
+                            <title>Get Alert Message</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1599212834770" stop="1599212834770" status="passed">
+                    <name>closeFile</name>
+                    <title>Close file</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="createClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="31392@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599212834957" stop="1599212835853" status="passed">
+            <name>viewClass</name>
+            <steps>
+                <step start="1599212834958" stop="1599212835398" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="1194f2ec-4aa5-4e2b-9119-66adcdca71b4-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212835399" stop="1599212835647" status="passed">
+                    <name>viewClass</name>
+                    <title>View Class</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212835648" stop="1599212835853" status="passed">
+                    <name>closeView</name>
+                    <title>Close View</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="viewClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="31392@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599212836020" stop="1599212845305" status="passed">
+            <name>editClass</name>
+            <steps>
+                <step start="1599212836021" stop="1599212836488" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="91792635-4ad8-4ea9-af3a-c6719b8ae74a-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212836489" stop="1599212836709" status="passed">
+                    <name>editClass</name>
+                    <title>Open Edit Window</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212836710" stop="1599212837437" status="passed">
+                    <name>editClassName[Test8]</name>
+                    <title>Edit class Name</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599212836712" stop="1599212836775" status="passed">
+                            <name>clearField[By.cssSelector: input[name=name]]</name>
+                            <title>Clear field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1599212836776" stop="1599212837437" status="passed">
+                            <name>setClassName[Test8]</name>
+                            <title>Set Class Name</title>
+                            <attachments>
+                                <attachment title="Screenshot" source="c4846506-f929-4aee-a840-b24bb2b4da5e-attachment.png" type="image/png"/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1599212837438" stop="1599212837572" status="passed">
+                    <name>changeLocation</name>
+                    <title>Change location</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212837572" stop="1599212838244" status="passed">
+                    <name>editClassImage</name>
+                    <title>Edit class image</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="390f6fe2-f401-421c-aff1-7d3012853d70-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212838245" stop="1599212839072" status="passed">
+                    <name>editOpenRegistration[10]</name>
+                    <title>Edit Open Registration</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599212838245" stop="1599212838297" status="passed">
+                            <name>clearField[By.cssSelector: body &gt; div:nth-child(7) &gt; div &gt; div &gt; div.modal-body &gt; form &gt; div.row.form-content &gt; div.inpu...]</name>
+                            <title>Clear field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1599212838298" stop="1599212839072" status="passed">
+                            <name>setOpenRegistration[10]</name>
+                            <title>Set Open Registration</title>
+                            <attachments>
+                                <attachment title="Screenshot" source="2dc29c0a-0f35-4bad-9c9b-493a3740cf75-attachment.png" type="image/png"/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1599212839073" stop="1599212839714" status="passed">
+                    <name>editCloseRegistration[5]</name>
+                    <title>Edit Close Registration</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599212839073" stop="1599212839128" status="passed">
+                            <name>clearField[By.cssSelector: input[name=closeForAttendees]]</name>
+                            <title>Clear field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1599212839129" stop="1599212839714" status="passed">
+                            <name>setCloseRegistration[5]</name>
+                            <title>Set Close Registration</title>
+                            <attachments>
+                                <attachment title="Screenshot" source="7e40d599-f09c-42aa-9e38-e7ae9e025140-attachment.png" type="image/png"/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1599212839715" stop="1599212840437" status="passed">
+                    <name>editParticipants[15]</name>
+                    <title>Edit Participants No.</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599212839715" stop="1599212839773" status="passed">
+                            <name>clearField[By.cssSelector: input[name=participants]]</name>
+                            <title>Clear field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1599212839774" stop="1599212840437" status="passed">
+                            <name>setParticipants[15]</name>
+                            <title>Set Participants</title>
+                            <attachments>
+                                <attachment title="Screenshot" source="b9a08a53-7a18-44d2-bb80-91d7697a1763-attachment.png" type="image/png"/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1599212840438" stop="1599212841403" status="passed">
+                    <name>editDuration[45]</name>
+                    <title>Edit duration</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599212840438" stop="1599212840493" status="passed">
+                            <name>clearField[By.cssSelector: input[name=duration]]</name>
+                            <title>Clear field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1599212840493" stop="1599212841403" status="passed">
+                            <name>setDuration[45]</name>
+                            <title>Set duration</title>
+                            <attachments>
+                                <attachment title="Screenshot" source="70a018e8-8659-4647-bdf4-f9cf2da38659-attachment.png" type="image/png"/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1599212841405" stop="1599212842598" status="passed">
+                    <name>editDate[4]</name>
+                    <title>Change date</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="f3adcd02-2703-493d-9388-8ed07adee240-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps>
+                        <step start="1599212841406" stop="1599212841567" status="passed">
+                            <name>clickBeginningDate</name>
+                            <title>Click on beginning date</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1599212841570" stop="1599212842142" status="passed">
+                            <name>setDate[4]</name>
+                            <title>Set date</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1599212842599" stop="1599212843837" status="passed">
+                    <name>editTime[, , , ]</name>
+                    <title>Edit time</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="5e5c04e1-cf97-4666-a4c3-f6f885dcb252-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps>
+                        <step start="1599212842599" stop="1599212843399" status="passed">
+                            <name>setTime[, , , ]</name>
+                            <title>Set class time</title>
+                            <attachments>
+                                <attachment title="Screenshot" source="4ba4ba7d-2845-4ddf-8b30-7042305b37ec-attachment.png" type="image/png"/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1599212843838" stop="1599212844587" status="passed">
+                    <name>editDescription[New Description]</name>
+                    <title>Edit Description</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599212843839" stop="1599212843898" status="passed">
+                            <name>clearField[By.cssSelector: textarea[name=description]]</name>
+                            <title>Clear field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1599212843899" stop="1599212844587" status="passed">
+                            <name>setDescription[New Description]</name>
+                            <title>Set class description</title>
+                            <attachments>
+                                <attachment title="Screenshot" source="a509a5da-082a-442d-92fe-ebc487e13524-attachment.png" type="image/png"/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1599212844588" stop="1599212845302" status="passed">
+                    <name>confirmEditClass</name>
+                    <title>Edit Class</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599212845264" stop="1599212845302" status="passed">
+                            <name>getAlertMessage</name>
+                            <title>Get Alert Message</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1599212845304" stop="1599212845305" status="passed">
+                    <name>closeFile</name>
+                    <title>Close file</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="editClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="31392@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599212845437" stop="1599212846773" status="passed">
+            <name>deleteClass</name>
+            <steps>
+                <step start="1599212845441" stop="1599212845955" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="a2bc7c45-d95d-407e-aa7d-75c65b6e6c2c-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212845956" stop="1599212846134" status="passed">
+                    <name>deleteClass</name>
+                    <title>Delete class</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212846135" stop="1599212846772" status="passed">
+                    <name>confirmDeleteClass</name>
+                    <title>Confirm delete</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599212846751" stop="1599212846772" status="passed">
+                            <name>getAlertMessage</name>
+                            <title>Get Alert Message</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.classesPage.ClassesPageTests"/>
+                <label name="testMethod" value="deleteClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="31392@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599212846961" stop="1599212847208" status="passed">
+            <name>checkClass</name>
+            <steps>
+                <step start="1599212846963" stop="1599212846970" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212846972" stop="1599212847208" status="passed">
+                    <name>checkAttendTodayClass</name>
+                    <title>Check Today Class</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.homePage.HomePageTests"/>
+                <label name="testMethod" value="checkClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="31392@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599212847375" stop="1599212848447" status="passed">
+            <name>editClass</name>
+            <steps>
+                <step start="1599212847378" stop="1599212847875" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="5457de31-5a34-49f0-91f9-6997ed98b7c7-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212847875" stop="1599212848388" status="passed">
+                    <name>selectDate[4]</name>
+                    <title>Select Date</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212848389" stop="1599212848425" status="passed">
+                    <name>selectClass</name>
+                    <title>Select Class</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1599212848426" stop="1599212848447" status="passed">
+                    <name>editClass</name>
+                    <title>Edit class</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599212848428" stop="1599212848447" status="passed">
+                            <name>selectClass</name>
+                            <title>Select Class</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.schedulePage.SchedulePageTests"/>
+                <label name="testMethod" value="editClass"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="31392@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599212848448" stop="1599212848839" status="passed">
+            <name>editDate</name>
+            <steps>
+                <step start="1599212848449" stop="1599212848818" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="42cf26a9-150a-48ab-85ec-a88274fc23bb-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212848818" stop="1599212848838" status="passed">
+                    <name>editDate[5]</name>
+                    <title>Set date</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599212848818" stop="1599212848838" status="passed">
+                            <name>selectClass</name>
+                            <title>Select Class</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.schedulePage.SchedulePageTests"/>
+                <label name="testMethod" value="editDate"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="31392@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599212848840" stop="1599212849213" status="passed">
+            <name>editTime</name>
+            <steps>
+                <step start="1599212848840" stop="1599212849193" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="3401937b-76e7-47a2-9f47-0bf8a1dc2295-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212849194" stop="1599212849213" status="passed">
+                    <name>editTime[, , , ]</name>
+                    <title>Edit class time</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599212849194" stop="1599212849213" status="passed">
+                            <name>selectClass</name>
+                            <title>Select Class</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.schedulePage.SchedulePageTests"/>
+                <label name="testMethod" value="editTime"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="31392@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599212849215" stop="1599212849581" status="passed">
+            <name>editOpenRegistration</name>
+            <steps>
+                <step start="1599212849215" stop="1599212849559" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="4a0d4983-d7fa-4402-bdb0-760d83dcdd2f-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212849560" stop="1599212849581" status="passed">
+                    <name>editOpenRegistration[30]</name>
+                    <title>Edit Open Registration</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599212849560" stop="1599212849581" status="passed">
+                            <name>selectClass</name>
+                            <title>Select Class</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.schedulePage.SchedulePageTests"/>
+                <label name="testMethod" value="editOpenRegistration"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="31392@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599212849582" stop="1599212849972" status="passed">
+            <name>editCloseRegistration</name>
+            <steps>
+                <step start="1599212849583" stop="1599212849950" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="5dd8192b-3ef0-4540-bc3e-c0aa28ff2798-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212849950" stop="1599212849972" status="passed">
+                    <name>editCloseRegistration[1]</name>
+                    <title>Edit Close Registration</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599212849950" stop="1599212849972" status="passed">
+                            <name>selectClass</name>
+                            <title>Select Class</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.schedulePage.SchedulePageTests"/>
+                <label name="testMethod" value="editCloseRegistration"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="31392@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1599212849974" stop="1599212850354" status="passed">
+            <name>confirmClassEdit</name>
+            <steps>
+                <step start="1599212849974" stop="1599212850332" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="dafb575e-9294-4ae8-aba0-0bf64e8fc826-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1599212850333" stop="1599212850353" status="passed">
+                    <name>confirmClassEdit</name>
+                    <title>Confirm edit</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1599212850333" stop="1599212850353" status="passed">
+                            <name>selectClass</name>
+                            <title>Select Class</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/FitCrowd/src/test/java/com/fit/loginPage/LoginPageTests.java"/>
+                <label name="testClass" value="com.fit.admin.schedulePage.SchedulePageTests"/>
+                <label name="testMethod" value="confirmClassEdit"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="31392@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

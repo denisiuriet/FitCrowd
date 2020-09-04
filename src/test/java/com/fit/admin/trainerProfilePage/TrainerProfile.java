@@ -158,7 +158,6 @@ public class TrainerProfile {
     @Step
     public void confirmUpdate() {
         this.readFile("TrainerProfile.txt");
-        driver.navigate().to("https://admin-dev.fitcrowd.net/trainerProfile");
         wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.trainerFirstName));
         Assert.assertEquals(driver.findElement(Elements.trainerFirstName).getAttribute("value"), this.data.get(0));
         Assert.assertEquals(driver.findElement(Elements.trainerLastName).getAttribute("value"), this.data.get(1));

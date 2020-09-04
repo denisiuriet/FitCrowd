@@ -77,7 +77,7 @@ public class LoginPageTests {
     @Test(groups = {"create"})
     public void validCredentials() {
         loginPage.checkPage();
-        loginPage.setEmail("iuriet.denis@gmail.com");
+        loginPage.setEmail("denisiuriet.test@gmail.com");
         loginPage.setPassword("abcd1234");
         loginPage.successfulLogin();
     }

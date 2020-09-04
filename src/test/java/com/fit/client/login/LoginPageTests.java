@@ -63,7 +63,7 @@ public class LoginPageTests {
     public void validCredentials(){
         loginPage.checkPage();
         loginPage.setEmail("denis.yonutz98@gmail.com");
-        loginPage.setPassword("abcd4321");
+        loginPage.setPassword("abcd1234");
         loginPage.successfulLogin();
     }
 

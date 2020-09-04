@@ -29,16 +29,22 @@ public class SchedulePageTests {
     public void selectDate() throws ParseException {
         schedulePage.checkPage();
         schedulePage.dayView();
-        schedulePage.selectDate(8, 24);
+        schedulePage.selectDate(0);
     }
 
     @Test(priority = 1)
+    public void cancelClass() {
+        schedulePage.checkPage();
+        schedulePage.cancelClass();
+    }
+
+    @Test(priority = 2)
     public void bookClass() throws IOException {
         schedulePage.checkPage();
         schedulePage.bookClass();
     }
 
-    @Test(priority = 2)
+    @Test(priority = 3)
     public void attendToOnlineClass() {
         schedulePage.checkPage();
         schedulePage.attendToOnlineClass();

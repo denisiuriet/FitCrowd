@@ -62,8 +62,4 @@ public class ForgotPasswordTests {
         forgotPasswordPage.returnToLogin();
     }
 
-    @AfterClass
-    public void tearDown(){
-        driver.quit();
-    }
 }

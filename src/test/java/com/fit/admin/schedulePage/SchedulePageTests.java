@@ -1,16 +1,20 @@
 package com.fit.admin.schedulePage;
 
 import com.fit.admin.SingletonDriver;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.text.ParseException;
+
+
 public class SchedulePageTests {
     private RemoteWebDriver driver;
     private SchedulePage schedulePage;
 
-    @BeforeClass(groups = {"checkClass", "create"})
+    @BeforeClass
     public void driverSetup() {
         driver = SingletonDriver.getInstance();
         WebDriverWait wait = new WebDriverWait(driver, 30);
@@ -18,70 +22,47 @@ public class SchedulePageTests {
         schedulePage.readFile("ClassData.txt");
     }
 
-    @BeforeClass(groups = {"checkClass", "create"})
+    @BeforeClass
     public void setDriver() {
         driver.navigate().to("https://admin-dev.fitcrowd.net/schedule");
     }
 
-    @Test(groups = {"checkClass", "create"}, priority = -1)
-    public void checkClassType() {
+
+    @Test(priority = 1)
+    public void editClass() throws ParseException {
         schedulePage.checkPage();
+        schedulePage.selectDate(4);
         schedulePage.selectClass();
-        schedulePage.checkClassType();
+        schedulePage.editClass();
     }
 
-
-    @Test(groups = {"checkClass", "create"})
-    public void checkClassName() {
+    @Test(priority = 2)
+    public void editDate() {
         schedulePage.checkPage();
-        schedulePage.checkClassName();
+        schedulePage.editDate(5);
     }
 
-    @Test(groups = {"checkClass", "create"})
-    public void checkClassLocation() {
+    @Test(priority = 3)
+    public void editTime() {
         schedulePage.checkPage();
-        schedulePage.checkClassLocation();
+        schedulePage.editTime(Keys.NUMPAD0, Keys.NUMPAD0, Keys.NUMPAD1, Keys.NUMPAD9);
     }
 
-    @Test(groups = {"checkClass", "create"})
-    public void checkClassDate() {
+    @Test(priority = 4)
+    public void editOpenRegistration() {
         schedulePage.checkPage();
-        schedulePage.checkClassDate();
+        schedulePage.editOpenRegistration("30");
     }
 
-    @Test(groups = {"checkClass", "create"})
-    public void checkStartTime() {
+    @Test(priority = 5)
+    public void editCloseRegistration() {
         schedulePage.checkPage();
-        schedulePage.checkStartTime();
+        schedulePage.editCloseRegistration("1");
     }
 
-    @Test(groups = {"checkClass", "create"})
-    public void checkFinishTime() {
+    @Test(priority = 6)
+    public void confirmClassEdit(){
         schedulePage.checkPage();
-        schedulePage.checkFinishTime();
-    }
-
-    @Test(groups = {"checkClass", "create"})
-    public void checkClassParticipants() {
-        schedulePage.checkPage();
-        schedulePage.checkClassParticipants();
-    }
-
-    @Test(groups = {"checkClass", "create"})
-    public void checkClassOpenRegistration() {
-        schedulePage.checkPage();
-        schedulePage.checkOpenRegistration();
-    }
-
-    @Test(groups = {"checkClass", "create"})
-    public void checkClassCloseRegistration() {
-        schedulePage.checkPage();
-        schedulePage.checkCloseRegistration();
-    }
-
-    @Test(groups = {"checkClass", "create"})
-    public void checkClassDescription() {
-        schedulePage.checkPage();
-        schedulePage.checkDescription();
+        schedulePage.confirmClassEdit();
     }
 }

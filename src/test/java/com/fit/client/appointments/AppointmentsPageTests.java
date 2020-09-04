@@ -7,8 +7,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import java.text.ParseException;
-
 public class AppointmentsPageTests {
     private RemoteWebDriver driver;
     private AppointmentsPage appointmentsPage;
@@ -26,34 +24,25 @@ public class AppointmentsPageTests {
     }
 
     @Test
-    public void checkClass() throws ParseException {
+    public void inspectClass() {
         appointmentsPage.checkPage();
         appointmentsPage.viewClass();
-        appointmentsPage.checkClassName();
-        appointmentsPage.checkClassType();
-        appointmentsPage.checkClassStatus();
-        appointmentsPage.checkClassTrainer();
-        appointmentsPage.checkClassDate();
-        appointmentsPage.checkClassStartTime();
-        appointmentsPage.checkClassFinishTime();
-        appointmentsPage.checkClassLocation();
-        appointmentsPage.checkClassDescription();
     }
 
     @Test
-    public void checkAttendClass() throws ParseException {
+    public void checkAttendClass() {
         appointmentsPage.checkPage();
         appointmentsPage.checkAttendClass();
     }
 
     @Test(priority = 1)
-    public void checkCancel() throws ParseException {
+    public void checkCancel() {
         appointmentsPage.checkPage();
         appointmentsPage.checkCancelClass();
     }
 
     @Test(priority = 2)
-    public void checkBook() throws ParseException {
+    public void checkBook() {
         appointmentsPage.checkPage();
         appointmentsPage.checkBookClass();
     }

@@ -26,21 +26,17 @@ public class ClassesPage {
     private File file;
     private FileWriter writer;
 
-    public ClassesPage(RemoteWebDriver driver, WebDriverWait wait) {
+    public ClassesPage(RemoteWebDriver driver, WebDriverWait wait) throws IOException {
         this.driver = driver;
         this.wait = wait;
         file = new File("ClassData.txt");
-    }
-
-    @Step
-    public void setFile() throws IOException {
-        file.createNewFile();
         writer = new FileWriter(file);
     }
 
     @Step("Check Page")
     public boolean checkPage() {
         return Utility.checkPage(driver, "https://admin-dev.fitcrowd.net/classes");
+
     }
 
     @Step("Click create button")
@@ -63,7 +59,7 @@ public class ClassesPage {
         List<WebElement> listOfContainer = driver.findElements(Elements.classContainers);
         listOfContainer.get(0).click();
         List<WebElement> classTypes = driver.findElement(Elements.classTypesOptions).findElements(Elements.divTag);
-        classTypes.get(1).click();
+        classTypes.get(0).click();
         writer.write(driver.findElement(Elements.classType).getText() + "\n");
 
     }
@@ -76,12 +72,12 @@ public class ClassesPage {
     }
 
     @Step("Set Class Location")
-    public void setClassLocation() throws IOException {
+    public void setClassLocation(int index) throws IOException {
         List<WebElement> listOfContainers = driver.findElements(Elements.classContainers);
         driver.findElement(Elements.locationClickableElement).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.locationMenu));
         List<WebElement> listOfOptions = listOfContainers.get(1).findElement(Elements.locationMenu).findElements(Elements.divTag);
-        WebElement element = listOfOptions.get(4);
+        WebElement element = listOfOptions.get(index);
         element.click();
         writer.write(driver.findElement(Elements.locationName).getText() + "\n");
     }
@@ -172,6 +168,8 @@ public class ClassesPage {
     @Step("Create class")
     public void createClass() {
         driver.findElement(Elements.submitButton).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.alertMessage));
+        Assert.assertEquals(this.getAlertMessage(), "Class model created");
     }
 
     @Step("Close file")
@@ -180,72 +178,81 @@ public class ClassesPage {
         writer.close();
     }
 
-    @Step("Check if class was created")
-    public void confirmClass() {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.classesList));
-        List<WebElement> listOfClasses = driver.findElements(Elements.classesList);
-        for (WebElement element : listOfClasses) {
-            wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.classDetails));
-            Utility.takeScreenshot(driver);
+    @Step("Delete class")
+    public void deleteClass() {
+        WebElement classDetails = driver.findElement(Elements.createdClasses).findElement(Elements.classDetails);
+
+        if (classDetails.getText().equals(" ")) {
+            return;
         }
 
-
-    }
-
-    @Step("Delete class")
-    public void deleteClass(String className) {
-        List<WebElement> list = driver.findElement(Elements.classTable).findElements(Elements.tableElements);
+        List<WebElement> list = driver.findElements(Elements.createdClasses);
         for (WebElement element : list) {
-            List<WebElement> elementsOfRow = element.findElements(Elements.rowElements);
-            System.out.println(elementsOfRow.get(0).getText());
-            if (elementsOfRow.get(0).getText().equals(className)) {
-                elementsOfRow.get(5).findElements(Elements.actionButtons).get(2).click();
-            }
+            List<WebElement> classElements = element.findElements(Elements.classDetails);
+            wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.actionButtons));
+            classElements.get(5).findElements(Elements.actionButtons).get(2).click();
+            break;
         }
     }
 
     @Step("Get Alert Message")
     public String getAlertMessage() {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.alertMessage));
         return driver.findElement(ClientElements.alert).getText();
     }
 
     @Step("Confirm delete")
     public void confirmDeleteClass() {
         driver.switchTo().activeElement().findElement(Elements.confirmButton).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.alertMessage));
         Assert.assertEquals(this.getAlertMessage(), "Class model deleted");
     }
 
     @Step("View Class")
-    public void viewClass(String className) {
-        List<WebElement> list = driver.findElement(Elements.classTable).findElements(Elements.tableElements);
+    public void viewClass() {
+        WebElement classDetails = driver.findElement(Elements.createdClasses).findElement(Elements.classDetails);
+
+        if (classDetails.getText().equals(" ")) {
+            return;
+        }
+
+        List<WebElement> list = driver.findElements(Elements.createdClasses);
         for (WebElement element : list) {
-            List<WebElement> elementsOfRow = element.findElements(Elements.rowElements);
-            if (elementsOfRow.get(0).getText().equals(className)) {
-                elementsOfRow.get(5).findElements(Elements.actionButtons).get(0).click();
-            }
+            List<WebElement> classElements = element.findElements(Elements.classDetails);
+            wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.actionButtons));
+            classElements.get(5).findElements(Elements.actionButtons).get(0).click();
+            break;
         }
     }
+
 
     @Step("Close View")
     public void closeView() {
         wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.closeView));
-        driver.findElement(Elements.closeView).click();
+        Actions builder = new Actions(driver);
+        builder.moveToElement(driver.findElement(Elements.closeView)).click().perform();
+    }
+
+    public void deleteFile() throws IOException {
+        file = new File("ClassData.txt");
+        writer = new FileWriter(file);
     }
 
     @Step("Open Edit Window")
-    public void editClass(String className) throws IOException {
-        file = new File("ClassData.txt");
-        writer = new FileWriter(file);
-        driver.navigate().to("https://admin-dev.fitcrowd.net/classes");
-        wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.classTable));
-        List<WebElement> list = driver.findElement(Elements.classTable).findElements(Elements.tableElements);
+    public void editClass() throws IOException {
+        this.deleteFile();
+
+        WebElement classDetails = driver.findElement(Elements.createdClasses).findElement(Elements.classDetails);
+
+        if (classDetails.getText().equals(" ")) {
+            return;
+        }
+
+        List<WebElement> list = driver.findElements(Elements.createdClasses);
         for (WebElement element : list) {
-            List<WebElement> elementsOfRow = element.findElements(Elements.rowElements);
-            if (elementsOfRow.get(0).getText().equals(className)) {
-                elementsOfRow.get(5).findElements(Elements.actionButtons).get(1).click();
-                break;
-            }
+            List<WebElement> classElements = element.findElements(Elements.classDetails);
+            wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.actionButtons));
+            classElements.get(5).findElements(Elements.actionButtons).get(1).click();
+            break;
         }
     }
 
@@ -305,15 +312,12 @@ public class ClassesPage {
     public void editDate(int flag) throws IOException {
         this.clickBeginningDate();
         this.setDate(flag);
-        writer.write(driver.findElement(Elements.currentDate).getAttribute("value") + "\n");
         Utility.takeScreenshot(driver);
     }
 
     @Step("Edit time")
     public void editTime(Keys min1, Keys min2, Keys hour1, Keys hour2) throws IOException {
         this.setTime(min1, min2, hour1, hour2);
-        writer.write(driver.findElement(Elements.classTime).getAttribute("title") + "\n");
-
         Utility.takeScreenshot(driver);
     }
 
@@ -324,8 +328,10 @@ public class ClassesPage {
     }
 
     @Step("Edit Class")
-    public void editClass() {
-        this.createClass();
+    public void confirmEditClass() {
+        driver.findElement(Elements.submitButton).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.alertMessage));
+        Assert.assertEquals(this.getAlertMessage(), "Class model updated");
     }
 
 }

@@ -8,25 +8,23 @@ import org.testng.annotations.Test;
 
 public class HomePageTests {
     private RemoteWebDriver driver;
-    private WebDriverWait wait;
     private HomePage homePage;
 
-    @BeforeClass(groups = {"create"})
+    @BeforeClass
     public void driverSetup() {
         driver = SingletonDriver.getInstance();
-        wait = new WebDriverWait(driver, 30);
+        WebDriverWait wait = new WebDriverWait(driver, 30);
         homePage = new HomePage(driver, wait);
-        homePage.readFile("ClassData.txt");
     }
 
-    @BeforeClass(groups = {"create"})
+    @BeforeClass
     public void setDriver() {
         driver.navigate().to("https://admin-dev.fitcrowd.net/home");
     }
 
-    @Test(groups = {"create"})
+    @Test
     public void checkClass() {
         homePage.checkPage();
-        homePage.checkTodayClass();
+        homePage.checkAttendTodayClass();
     }
 }

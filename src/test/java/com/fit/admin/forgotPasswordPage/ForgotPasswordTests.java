@@ -5,7 +5,6 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -59,17 +58,12 @@ public class ForgotPasswordTests {
     @Test
     public void validEmail() {
         forgotPasswordPage.checkPage();
-        forgotPasswordPage.setEmail("iuriet.denis@gmail.com");
+        forgotPasswordPage.setEmail("denisiuriet.test@gmail.com");
         forgotPasswordPage.checkResetButton();
         wait.until(ExpectedConditions.visibilityOfElementLocated(Elements.alertMessage));
         String alertMessage = forgotPasswordPage.getAlertMessage();
 
         Assert.assertEquals(alertMessage, Elements.validEmailMessage);
 
-    }
-
-    @AfterClass
-    public void tearDown() {
-        driver.quit();
     }
 }

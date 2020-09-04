@@ -52,14 +52,18 @@ public class ClientElements {
     public final static By classesOfDay = By.className("rbc-event-content");
     public final static By noOfParticipants = By.cssSelector("#number-of-participants > p");
     public final static By reservation = By.cssSelector("#reservations > span");
+    public final static By cancelClass = By.cssSelector("button[class='cancel-button btn btn-primary']");
     public static String reservationText = "Reservations end in";
     public final static By closeButton = By.className("button-icon");
     public static String successfulBook = "Congrats! You've succesfully booked a place at ";
     public static String checkAppointmentsMessage = "Check out your appointments.";
+    public static String cancelBook = "Your appointment at ";
+    public static String classCanceledText = " class was canceled!";
     public static String bookButtonText = "Book class";
+    public static String cancelButtonText = "Cancel class";
 
-    public final static By className = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.row.form-content > div.inputs-side.col-2 > div > div:nth-child(1) > div:nth-child(1) > input[type=text]");
-    public final static By classType = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.row.form-content > div.inputs-side.col-2 > div > div:nth-child(1) > div:nth-child(2) > input[type=text]");
+    public final static By className = By.cssSelector("input[name=name]");
+    public final static By classType = By.cssSelector("input[name=type]");
     public final static By classStatus = By.cssSelector("input[name=status]");
     public final static By classTrainer = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.row.form-content > div.inputs-side.col-2 > div > div:nth-child(2) > div:nth-child(1) > div > div > div.css-1hwfws3 > div.css-107lb6w-singleValue");
     public final static By classDate = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-body > form > div.row.form-content > div.inputs-side.col-2 > div > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1) > input[type=text]");
@@ -70,11 +74,10 @@ public class ClientElements {
 
     //Appointments Page Elements
     public final static By spanTag = By.tagName("span");
-    public final static By appClassTime = By.tagName("time");
-    public final static By xButton = By.cssSelector("body > div:nth-child(7) > div > div > div.modal-header > div.modal-buttons > button > i");
-    public final static By attendButton = By.cssSelector("#root > div > div.container-open > div.dashboard > div > div.bills-table > div > div.rt-table > div.rt-tbody > div:nth-child(2) > div > div:nth-child(6) > div > button.button-action.normal");
-    public final static By cancelButton = By.cssSelector("#root > div > div.container-open > div.dashboard > div > div.bills-table > div > div.rt-table > div.rt-tbody > div:nth-child(2) > div > div:nth-child(6) > div > button.button-action.danger");
-    public final static By bookButton = By.cssSelector("#root > div > div.container-open > div.dashboard > div > div.bills-table > div > div.rt-table > div.rt-tbody > div:nth-child(2) > div > div:nth-child(6) > div > button.button-action.success.btn.btn-primary");
+    public final static By attendButton = By.cssSelector(".button-action.normal");
+    public final static By cancelButton = By.cssSelector(".button-action.danger");
+    public final static By confirmButton = By.cssSelector("body > div:nth-child(8) > div > div > div.modal-body > div > div.button-container > button");
+    public final static By bookButton = By.cssSelector(".button-action.success.btn.btn-primary");
     public final static By infoButton = By.className("button-icon");
-    public final static By statusText = By.cssSelector("#root > div > div.container-open > div.dashboard > div > div.bills-table > div > div.rt-table > div.rt-tbody > div:nth-child(2) > div > div:nth-child(5) > span");
+    public final static By statusText = By.cssSelector("#root > div > div.container-open > div.dashboard > div > div.bills-table > div > div.rt-table > div.rt-tbody > div:nth-child(1) > div > div:nth-child(5) > span");
 }
